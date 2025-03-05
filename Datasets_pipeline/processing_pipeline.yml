@@ -1,0 +1,548 @@
+# PIPELINE DEFINITION
+# Name: processing-pipeline
+# Description: Data preprocessing
+components:
+  comp-data-bigquery:
+    executorLabel: exec-data-bigquery
+    inputDefinitions:
+      artifacts:
+        file_path:
+          artifactType:
+            schemaTitle: system.Artifact
+            schemaVersion: 0.0.1
+      parameters:
+        bucket_name:
+          parameterType: STRING
+        dataset_id:
+          parameterType: STRING
+        folder:
+          parameterType: STRING
+        location:
+          parameterType: STRING
+        parquet_file_name:
+          parameterType: STRING
+        project_id:
+          parameterType: STRING
+        table_id:
+          parameterType: STRING
+    outputDefinitions:
+      artifacts:
+        bigquery_table:
+          artifactType:
+            schemaTitle: system.Artifact
+            schemaVersion: 0.0.1
+  comp-data-entities:
+    executorLabel: exec-data-entities
+    inputDefinitions:
+      artifacts:
+        file_path:
+          artifactType:
+            schemaTitle: system.Artifact
+            schemaVersion: 0.0.1
+      parameters:
+        bucket_name:
+          parameterType: STRING
+        folder:
+          parameterType: STRING
+        num_doc:
+          parameterType: NUMBER_INTEGER
+        parquet_file_name:
+          parameterType: STRING
+        text_column:
+          parameterType: STRING
+    outputDefinitions:
+      artifacts:
+        entities_dataset:
+          artifactType:
+            schemaTitle: system.Artifact
+            schemaVersion: 0.0.1
+  comp-data-moderate:
+    executorLabel: exec-data-moderate
+    inputDefinitions:
+      artifacts:
+        file_path:
+          artifactType:
+            schemaTitle: system.Artifact
+            schemaVersion: 0.0.1
+      parameters:
+        bucket_name:
+          parameterType: STRING
+        folder:
+          parameterType: STRING
+        num_doc:
+          parameterType: NUMBER_INTEGER
+        parquet_file_name:
+          parameterType: STRING
+        text_column:
+          parameterType: STRING
+    outputDefinitions:
+      artifacts:
+        moderate_dataset:
+          artifactType:
+            schemaTitle: system.Artifact
+            schemaVersion: 0.0.1
+  comp-data-preprocessing:
+    executorLabel: exec-data-preprocessing
+    inputDefinitions:
+      parameters:
+        bucket_name:
+          parameterType: STRING
+        file_path:
+          parameterType: STRING
+        folder:
+          parameterType: STRING
+        parquet_file_name:
+          parameterType: STRING
+    outputDefinitions:
+      artifacts:
+        processed_dataset:
+          artifactType:
+            schemaTitle: system.Artifact
+            schemaVersion: 0.0.1
+  comp-data-sentiment:
+    executorLabel: exec-data-sentiment
+    inputDefinitions:
+      artifacts:
+        file_path:
+          artifactType:
+            schemaTitle: system.Artifact
+            schemaVersion: 0.0.1
+      parameters:
+        bucket_name:
+          parameterType: STRING
+        folder:
+          parameterType: STRING
+        num_doc:
+          parameterType: NUMBER_INTEGER
+        parquet_file_name:
+          parameterType: STRING
+        text_column:
+          parameterType: STRING
+    outputDefinitions:
+      artifacts:
+        sentiment_dataset:
+          artifactType:
+            schemaTitle: system.Artifact
+            schemaVersion: 0.0.1
+  comp-data-tokenization:
+    executorLabel: exec-data-tokenization
+    inputDefinitions:
+      artifacts:
+        file_path:
+          artifactType:
+            schemaTitle: system.Artifact
+            schemaVersion: 0.0.1
+      parameters:
+        bucket_name:
+          parameterType: STRING
+        folder:
+          parameterType: STRING
+        parquet_file_name:
+          parameterType: STRING
+    outputDefinitions:
+      artifacts:
+        tokenized_dataset:
+          artifactType:
+            schemaTitle: system.Artifact
+            schemaVersion: 0.0.1
+defaultPipelineRoot: gs://ccai-storage/pipeline_root/
+deploymentSpec:
+  executors:
+    exec-data-bigquery:
+      container:
+        args:
+        - --executor_input
+        - '{{$}}'
+        - --function_to_execute
+        - data_bigquery
+        command:
+        - sh
+        - -c
+        - "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip ||\
+          \ python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1\
+          \ python3 -m pip install --quiet --no-warn-script-location 'kfp==2.7.0'\
+          \ '--no-deps' 'typing-extensions>=3.7.4,<5; python_version<\"3.9\"' && \"\
+          $0\" \"$@\"\n"
+        - sh
+        - -ec
+        - 'program_path=$(mktemp -d)
+
+
+          printf "%s" "$0" > "$program_path/ephemeral_component.py"
+
+          _KFP_RUNTIME=true python3 -m kfp.dsl.executor_main                         --component_module_path                         "$program_path/ephemeral_component.py"                         "$@"
+
+          '
+        - "\nimport kfp\nfrom kfp import dsl\nfrom kfp.dsl import *\nfrom typing import\
+          \ *\n\ndef data_bigquery(\n    bucket_name: str,\n    file_path: Input[Artifact],\n\
+          \    folder: str,\n    parquet_file_name: str,\n    project_id: str,\n \
+          \   dataset_id: str,\n    table_id: str,\n    location: str,\n    bigquery_table:\
+          \ Output[Artifact]\n\n):  \n\n    import logging\n    from processing.bigquery\
+          \ import GCS_Bigquery\n\n    logging.basicConfig(level=logging.INFO, format='%(levelname)s:\
+          \ %(message)s\\n')\n    print(f\"------ file_path.uri = {file_path.uri}\"\
+          )\n    print(\"--\")\n    processor = GCS_Bigquery(bucket_name, file_path.uri,\
+          \ folder, parquet_file_name, \n                         project_id, dataset_id,\
+          \ table_id, location)\n\n\n    bigquery_table.uri = processor.upload_dataframe_to_bigquery()\n\
+          \n"
+        image: europe-west3-docker.pkg.dev/gcp-ccai-auto-ml-contactcenter/repo-demo3/data_bigquery:latest
+    exec-data-entities:
+      container:
+        args:
+        - --executor_input
+        - '{{$}}'
+        - --function_to_execute
+        - data_entities
+        command:
+        - sh
+        - -c
+        - "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip ||\
+          \ python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1\
+          \ python3 -m pip install --quiet --no-warn-script-location 'kfp==2.7.0'\
+          \ '--no-deps' 'typing-extensions>=3.7.4,<5; python_version<\"3.9\"' && \"\
+          $0\" \"$@\"\n"
+        - sh
+        - -ec
+        - 'program_path=$(mktemp -d)
+
+
+          printf "%s" "$0" > "$program_path/ephemeral_component.py"
+
+          _KFP_RUNTIME=true python3 -m kfp.dsl.executor_main                         --component_module_path                         "$program_path/ephemeral_component.py"                         "$@"
+
+          '
+        - "\nimport kfp\nfrom kfp import dsl\nfrom kfp.dsl import *\nfrom typing import\
+          \ *\n\ndef data_entities(\n    bucket_name: str,\n    file_path: Input[Artifact],\n\
+          \    folder: str,\n    parquet_file_name: str,\n    text_column: str,\n\
+          \    num_doc: int,\n    entities_dataset: Output[Artifact]\n):  \n    import\
+          \ logging\n    from processing.entities import GCSCEntityAnalyzer\n\n  \
+          \  logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s\\\
+          n')\n    print(f\"------ file_path.uri = {file_path.uri}\")\n    processor\
+          \ = GCSCEntityAnalyzer(bucket_name, file_path.uri, folder, parquet_file_name,\
+          \ \n                                    text_column, num_doc)\n\n\n    entities_dataset.uri\
+          \ = processor.process()\n    print(\"--\")\n\n"
+        image: europe-west3-docker.pkg.dev/gcp-ccai-auto-ml-contactcenter/repo-demo3/data_entities:latest
+    exec-data-moderate:
+      container:
+        args:
+        - --executor_input
+        - '{{$}}'
+        - --function_to_execute
+        - data_moderate
+        command:
+        - sh
+        - -c
+        - "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip ||\
+          \ python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1\
+          \ python3 -m pip install --quiet --no-warn-script-location 'kfp==2.7.0'\
+          \ '--no-deps' 'typing-extensions>=3.7.4,<5; python_version<\"3.9\"' && \"\
+          $0\" \"$@\"\n"
+        - sh
+        - -ec
+        - 'program_path=$(mktemp -d)
+
+
+          printf "%s" "$0" > "$program_path/ephemeral_component.py"
+
+          _KFP_RUNTIME=true python3 -m kfp.dsl.executor_main                         --component_module_path                         "$program_path/ephemeral_component.py"                         "$@"
+
+          '
+        - "\nimport kfp\nfrom kfp import dsl\nfrom kfp.dsl import *\nfrom typing import\
+          \ *\n\ndef data_moderate(\n    bucket_name: str,\n    file_path: Input[Artifact],\n\
+          \    folder: str,\n    parquet_file_name: str,\n    text_column: str,\n\
+          \    num_doc: int,\n    moderate_dataset: Output[Artifact]\n):  \n    import\
+          \ logging\n    from processing.moderate import GCSTextModerationLoader\n\
+          \n    logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s\\\
+          n')\n\n    processor = GCSTextModerationLoader(bucket_name, file_path.uri,\
+          \ folder, parquet_file_name, \n                                    text_column,\
+          \ num_doc)\n\n    print(\"--\")\n    moderate_dataset.uri = processor.process()\n\
+          \n"
+        image: europe-west3-docker.pkg.dev/gcp-ccai-auto-ml-contactcenter/repo-demo3/data_moderate:latest
+    exec-data-preprocessing:
+      container:
+        args:
+        - --executor_input
+        - '{{$}}'
+        - --function_to_execute
+        - data_preprocessing
+        command:
+        - sh
+        - -c
+        - "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip ||\
+          \ python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1\
+          \ python3 -m pip install --quiet --no-warn-script-location 'kfp==2.7.0'\
+          \ '--no-deps' 'typing-extensions>=3.7.4,<5; python_version<\"3.9\"' && \"\
+          $0\" \"$@\"\n"
+        - sh
+        - -ec
+        - 'program_path=$(mktemp -d)
+
+
+          printf "%s" "$0" > "$program_path/ephemeral_component.py"
+
+          _KFP_RUNTIME=true python3 -m kfp.dsl.executor_main                         --component_module_path                         "$program_path/ephemeral_component.py"                         "$@"
+
+          '
+        - "\nimport kfp\nfrom kfp import dsl\nfrom kfp.dsl import *\nfrom typing import\
+          \ *\n\ndef data_preprocessing(\n    bucket_name: str,\n    file_path: str,\n\
+          \    folder: str,\n    parquet_file_name: str, \n    processed_dataset:\
+          \ Output[Artifact]\n):  \n    import logging\n\n    from processing.data_preparation\
+          \ import GCSParquetLoader\n\n    logging.basicConfig(level=logging.INFO,\
+          \ format='%(levelname)s: %(message)s\\n')\n\n    processor = GCSParquetLoader(bucket_name,\
+          \ file_path, folder, parquet_file_name)\n    processed_dataset.uri = processor.save_df_to_gcs_parquet()\n\
+          \    print(\"--\")\n\n"
+        image: europe-west3-docker.pkg.dev/gcp-ccai-auto-ml-contactcenter/repo-demo3/data_preparation:latest
+    exec-data-sentiment:
+      container:
+        args:
+        - --executor_input
+        - '{{$}}'
+        - --function_to_execute
+        - data_sentiment
+        command:
+        - sh
+        - -c
+        - "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip ||\
+          \ python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1\
+          \ python3 -m pip install --quiet --no-warn-script-location 'kfp==2.7.0'\
+          \ '--no-deps' 'typing-extensions>=3.7.4,<5; python_version<\"3.9\"' && \"\
+          $0\" \"$@\"\n"
+        - sh
+        - -ec
+        - 'program_path=$(mktemp -d)
+
+
+          printf "%s" "$0" > "$program_path/ephemeral_component.py"
+
+          _KFP_RUNTIME=true python3 -m kfp.dsl.executor_main                         --component_module_path                         "$program_path/ephemeral_component.py"                         "$@"
+
+          '
+        - "\nimport kfp\nfrom kfp import dsl\nfrom kfp.dsl import *\nfrom typing import\
+          \ *\n\ndef data_sentiment(\n    bucket_name: str,\n    file_path: Input[Artifact],\n\
+          \    folder: str,\n    parquet_file_name: str,\n    text_column: str,\n\
+          \    num_doc: int,\n    sentiment_dataset: Output[Artifact]\n):  \n    import\
+          \ logging\n    from processing.sentiment import GCSSentimentAnalyzer\n\n\
+          \    logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s\\\
+          n')\n\n    processor = GCSSentimentAnalyzer(bucket_name, file_path.uri,\
+          \ folder, parquet_file_name, \n                                    text_column,\
+          \ num_doc)\n\n\n    print(\"--\")\n    sentiment_dataset.uri = processor.process()\n\
+          \n"
+        image: europe-west3-docker.pkg.dev/gcp-ccai-auto-ml-contactcenter/repo-demo3/data_sentiment:latest
+    exec-data-tokenization:
+      container:
+        args:
+        - --executor_input
+        - '{{$}}'
+        - --function_to_execute
+        - data_tokenization
+        command:
+        - sh
+        - -c
+        - "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip ||\
+          \ python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1\
+          \ python3 -m pip install --quiet --no-warn-script-location 'kfp==2.7.0'\
+          \ '--no-deps' 'typing-extensions>=3.7.4,<5; python_version<\"3.9\"' && \"\
+          $0\" \"$@\"\n"
+        - sh
+        - -ec
+        - 'program_path=$(mktemp -d)
+
+
+          printf "%s" "$0" > "$program_path/ephemeral_component.py"
+
+          _KFP_RUNTIME=true python3 -m kfp.dsl.executor_main                         --component_module_path                         "$program_path/ephemeral_component.py"                         "$@"
+
+          '
+        - "\nimport kfp\nfrom kfp import dsl\nfrom kfp.dsl import *\nfrom typing import\
+          \ *\n\ndef data_tokenization(\n    bucket_name: str,\n    file_path: Input[Artifact],\n\
+          \    folder: str,\n    parquet_file_name: str,\n    tokenized_dataset: Output[Artifact]\n\
+          ):  \n    import logging\n    from processing.tokenization import TokenizationProcessor\n\
+          \n    logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s\\\
+          n')\n\n    processor = TokenizationProcessor(bucket_name, file_path.uri,\
+          \ folder, parquet_file_name)\n    #processor.save_df_to_gcs_parquet()\n\n\
+          \    print(\"--\")\n    tokenized_dataset.uri = processor.save_df_to_gcs_parquet()\n\
+          \n"
+        image: europe-west3-docker.pkg.dev/gcp-ccai-auto-ml-contactcenter/repo-demo3/data_tokenization:latest
+pipelineInfo:
+  description: Data preprocessing
+  name: processing-pipeline
+root:
+  dag:
+    tasks:
+      data-bigquery:
+        cachingOptions:
+          enableCache: true
+        componentRef:
+          name: comp-data-bigquery
+        dependentTasks:
+        - data-entities
+        inputs:
+          artifacts:
+            file_path:
+              taskOutputArtifact:
+                outputArtifactKey: entities_dataset
+                producerTask: data-entities
+          parameters:
+            bucket_name:
+              runtimeValue:
+                constant: ccai-storage
+            dataset_id:
+              runtimeValue:
+                constant: dataset_nlp
+            folder:
+              runtimeValue:
+                constant: pipeline
+            location:
+              runtimeValue:
+                constant: europe-west3
+            parquet_file_name:
+              runtimeValue:
+                constant: pipeline/step_final_bq.parquet
+            project_id:
+              runtimeValue:
+                constant: gcp-ccai-auto-ml-contactcenter
+            table_id:
+              runtimeValue:
+                constant: step_final_bq
+        taskInfo:
+          name: data-bigquery
+      data-entities:
+        cachingOptions:
+          enableCache: true
+        componentRef:
+          name: comp-data-entities
+        dependentTasks:
+        - data-moderate
+        inputs:
+          artifacts:
+            file_path:
+              taskOutputArtifact:
+                outputArtifactKey: moderate_dataset
+                producerTask: data-moderate
+          parameters:
+            bucket_name:
+              runtimeValue:
+                constant: ccai-storage
+            folder:
+              runtimeValue:
+                constant: pipeline
+            num_doc:
+              runtimeValue:
+                constant: 10.0
+            parquet_file_name:
+              runtimeValue:
+                constant: step5_pipeline.parquet
+            text_column:
+              runtimeValue:
+                constant: body_pre
+        taskInfo:
+          name: data-entities
+      data-moderate:
+        cachingOptions:
+          enableCache: true
+        componentRef:
+          name: comp-data-moderate
+        dependentTasks:
+        - data-sentiment
+        inputs:
+          artifacts:
+            file_path:
+              taskOutputArtifact:
+                outputArtifactKey: sentiment_dataset
+                producerTask: data-sentiment
+          parameters:
+            bucket_name:
+              runtimeValue:
+                constant: ccai-storage
+            folder:
+              runtimeValue:
+                constant: pipeline
+            num_doc:
+              runtimeValue:
+                constant: 10.0
+            parquet_file_name:
+              runtimeValue:
+                constant: step4_pipeline.parquet
+            text_column:
+              runtimeValue:
+                constant: body_pre
+        taskInfo:
+          name: data-moderate
+      data-preprocessing:
+        cachingOptions:
+          enableCache: true
+        componentRef:
+          name: comp-data-preprocessing
+        inputs:
+          parameters:
+            bucket_name:
+              runtimeValue:
+                constant: ccai-storage
+            file_path:
+              runtimeValue:
+                constant: fabio/articlesoutputv3.parquet
+            folder:
+              runtimeValue:
+                constant: pipeline
+            parquet_file_name:
+              runtimeValue:
+                constant: step1_pipeline.parquet
+        taskInfo:
+          name: data-preprocessing
+      data-sentiment:
+        cachingOptions:
+          enableCache: true
+        componentRef:
+          name: comp-data-sentiment
+        dependentTasks:
+        - data-tokenization
+        inputs:
+          artifacts:
+            file_path:
+              taskOutputArtifact:
+                outputArtifactKey: tokenized_dataset
+                producerTask: data-tokenization
+          parameters:
+            bucket_name:
+              runtimeValue:
+                constant: ccai-storage
+            folder:
+              runtimeValue:
+                constant: pipeline
+            num_doc:
+              runtimeValue:
+                constant: 10.0
+            parquet_file_name:
+              runtimeValue:
+                constant: step3_pipeline.parquet
+            text_column:
+              runtimeValue:
+                constant: body_pre
+        taskInfo:
+          name: data-sentiment
+      data-tokenization:
+        cachingOptions:
+          enableCache: true
+        componentRef:
+          name: comp-data-tokenization
+        dependentTasks:
+        - data-preprocessing
+        inputs:
+          artifacts:
+            file_path:
+              taskOutputArtifact:
+                outputArtifactKey: processed_dataset
+                producerTask: data-preprocessing
+          parameters:
+            bucket_name:
+              runtimeValue:
+                constant: ccai-storage
+            folder:
+              runtimeValue:
+                constant: pipeline
+            parquet_file_name:
+              runtimeValue:
+                constant: step2_pipeline.parquet
+        taskInfo:
+          name: data-tokenization
+schemaVersion: 2.1.0
+sdkVersion: kfp-2.7.0

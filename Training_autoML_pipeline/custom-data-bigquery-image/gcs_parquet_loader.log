@@ -1,0 +1,4 @@
+2024-03-22 22:30:45,400 - processing.bigquery - ERROR - Error loading Parquet file from GCS: 404 GET https://storage.googleapis.com/download/storage/v1/b/ccai-storage/o/step5_pipeline.parquet?alt=media: No such object: ccai-storage/step5_pipeline.parquet: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2024-03-22 22:30:45,400 - processing.bigquery - ERROR - Error loading Parquet file from GCS: 404 GET https://storage.googleapis.com/download/storage/v1/b/ccai-storage/o/step5_pipeline.parquet?alt=media: No such object: ccai-storage/step5_pipeline.parquet: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2024-03-25 11:06:28,873 - processing.bigquery - INFO - Start loading DataFrame from step5_pipeline.parquet
+2024-03-25 11:06:28,990 - processing.bigquery - INFO - Loaded DataFrame from step5_pipeline.parquet

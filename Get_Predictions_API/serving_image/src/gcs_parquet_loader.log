@@ -1,0 +1,161 @@
+2024-03-28 16:00:21,750 - processing.inference_prepr_feats_eng - INFO - Start loading DataFrame from test_file.parquet
+2024-03-28 16:00:21,946 - processing.inference_prepr_feats_eng - INFO - Loaded DataFrame from test_file.parquet
+2024-03-28 16:00:21,946 - processing.inference_prepr_feats_eng - INFO - Loading Data Preparation
+2024-03-28 16:00:21,946 - processing.inference_prepr_feats_eng - INFO - Start Data preprocessing
+2024-03-28 16:00:21,956 - processing.inference_prepr_feats_eng - INFO - Start Data tokenize
+2024-03-28 16:00:21,956 - processing.inference_prepr_feats_eng - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-28 16:00:22,987 - processing.inference_prepr_feats_eng - INFO - Extracting Sentiment
+2024-03-28 16:00:41,734 - processing.inference_prepr_feats_eng - INFO - Extracting Moderate
+2024-03-28 16:00:54,577 - processing.inference_prepr_feats_eng - INFO - Extracting Entity
+2024-03-28 16:01:08,504 - processing.inference_prepr_feats_eng - INFO - Dataframe final saved to GCS
+2024-03-28 16:01:11,967 - processing.inference_prepr_feats_eng - INFO -  Dataframe finale saved to Big Query
+2024-03-28 16:02:04,057 - processing.inference_prepr_feats_eng - INFO - Start loading DataFrame from test_file.parquet
+2024-03-28 16:02:04,164 - processing.inference_prepr_feats_eng - INFO - Loaded DataFrame from test_file.parquet
+2024-03-28 16:02:04,164 - processing.inference_prepr_feats_eng - INFO - Loading Data Preparation
+2024-03-28 16:02:04,164 - processing.inference_prepr_feats_eng - INFO - Start Data preprocessing
+2024-03-28 16:02:04,175 - processing.inference_prepr_feats_eng - INFO - Start Data tokenize
+2024-03-28 16:02:04,175 - processing.inference_prepr_feats_eng - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-28 16:02:05,283 - processing.inference_prepr_feats_eng - INFO - Extracting Sentiment
+2024-03-28 16:02:22,001 - processing.inference_prepr_feats_eng - INFO - Extracting Moderate
+2024-03-28 16:02:34,265 - processing.inference_prepr_feats_eng - INFO - Extracting Entity
+2024-03-28 16:02:50,113 - processing.inference_prepr_feats_eng - INFO - Dataframe final saved to GCS
+2024-03-28 16:02:53,114 - processing.inference_prepr_feats_eng - INFO -  Dataframe finale saved to Big Query
+2024-03-28 16:05:06,042 - processing.inference_prepr_feats_eng - INFO - Start loading DataFrame from test_file.parquet
+2024-03-28 16:05:06,158 - processing.inference_prepr_feats_eng - INFO - Loaded DataFrame from test_file.parquet
+2024-03-28 16:05:06,158 - processing.inference_prepr_feats_eng - INFO - Loading Data Preparation
+2024-03-28 16:05:06,158 - processing.inference_prepr_feats_eng - INFO - Start Data preprocessing
+2024-03-28 16:05:06,168 - processing.inference_prepr_feats_eng - INFO - Start Data tokenize
+2024-03-28 16:05:06,168 - processing.inference_prepr_feats_eng - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-28 16:05:07,274 - processing.inference_prepr_feats_eng - INFO - Extracting Sentiment
+2024-03-28 16:05:24,158 - processing.inference_prepr_feats_eng - INFO - Extracting Moderate
+2024-03-28 16:05:33,730 - processing.inference_prepr_feats_eng - INFO - Extracting Entity
+2024-03-28 16:05:45,577 - processing.inference_prepr_feats_eng - INFO - Dataframe final saved to GCS
+2024-03-28 16:05:48,403 - processing.inference_prepr_feats_eng - INFO -  Dataframe finale saved to Big Query
+2024-03-28 16:16:56,868 - processing.inference_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-28 16:16:56,988 - processing.inference_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-28 16:16:56,988 - processing.inference_preprocessing - INFO - Start Data preprocessing
+2024-03-28 16:16:56,997 - processing.inference_preprocessing - INFO - Start Data tokenize
+2024-03-28 16:16:56,997 - processing.inference_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-28 16:16:58,087 - processing.inference_preprocessing - INFO - Extracting Sentiment
+2024-03-28 16:17:13,994 - processing.inference_preprocessing - INFO - Extracting Moderate
+2024-03-28 16:17:24,637 - processing.inference_preprocessing - INFO - Extracting Entity
+2024-03-28 16:24:47,624 - processing.inference_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-28 16:24:47,746 - processing.inference_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-28 16:24:47,746 - processing.inference_preprocessing - INFO - Start Data preprocessing
+2024-03-28 16:24:47,755 - processing.inference_preprocessing - INFO - Start Data tokenize
+2024-03-28 16:24:47,756 - processing.inference_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-28 16:24:48,818 - processing.inference_preprocessing - INFO - Extracting Sentiment
+2024-03-28 16:24:53,262 - processing.inference_preprocessing - INFO - Extracting Moderate
+2024-03-28 16:24:55,852 - processing.inference_preprocessing - INFO - Extracting Entity
+2024-03-28 16:25:20,834 - processing.inference_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-28 16:25:20,834 - processing.inference_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-28 16:25:20,950 - processing.inference_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-28 16:25:20,950 - processing.inference_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-28 16:25:20,950 - processing.inference_preprocessing - INFO - Start Data preprocessing
+2024-03-28 16:25:20,950 - processing.inference_preprocessing - INFO - Start Data preprocessing
+2024-03-28 16:25:20,957 - processing.inference_preprocessing - INFO - Start Data tokenize
+2024-03-28 16:25:20,957 - processing.inference_preprocessing - INFO - Start Data tokenize
+2024-03-28 16:25:20,958 - processing.inference_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-28 16:25:20,958 - processing.inference_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-28 16:25:20,962 - processing.inference_preprocessing - INFO - Extracting Sentiment
+2024-03-28 16:25:20,962 - processing.inference_preprocessing - INFO - Extracting Sentiment
+2024-03-28 16:25:21,811 - processing.inference_preprocessing - INFO - Extracting Moderate
+2024-03-28 16:25:21,811 - processing.inference_preprocessing - INFO - Extracting Moderate
+2024-03-28 16:25:23,160 - processing.inference_preprocessing - INFO - Extracting Entity
+2024-03-28 16:25:23,160 - processing.inference_preprocessing - INFO - Extracting Entity
+2024-03-28 16:27:52,236 - processing.inference_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-28 16:27:52,355 - processing.inference_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-28 16:27:52,355 - processing.inference_preprocessing - INFO - Start Data preprocessing
+2024-03-28 16:27:52,364 - processing.inference_preprocessing - INFO - Start Data tokenize
+2024-03-28 16:27:52,364 - processing.inference_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-28 16:27:53,402 - processing.inference_preprocessing - INFO - Extracting Sentiment
+2024-03-28 16:27:55,234 - processing.inference_preprocessing - INFO - Extracting Moderate
+2024-03-28 16:27:56,585 - processing.inference_preprocessing - INFO - Extracting Entity
+2024-03-28 16:36:18,004 - processing.inference_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-28 16:36:18,124 - processing.inference_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-28 16:36:18,125 - processing.inference_preprocessing - INFO - Start Data preprocessing
+2024-03-28 16:36:18,134 - processing.inference_preprocessing - INFO - Start Data tokenize
+2024-03-28 16:36:18,134 - processing.inference_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-28 16:36:19,189 - processing.inference_preprocessing - INFO - Extracting Sentiment
+2024-03-28 16:36:21,030 - processing.inference_preprocessing - INFO - Extracting Moderate
+2024-03-28 16:36:22,439 - processing.inference_preprocessing - INFO - Extracting Entity
+2024-03-28 16:38:02,439 - processing.inference_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-28 16:38:02,570 - processing.inference_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-28 16:38:02,570 - processing.inference_preprocessing - INFO - Start Data preprocessing
+2024-03-28 16:38:02,579 - processing.inference_preprocessing - INFO - Start Data tokenize
+2024-03-28 16:38:02,579 - processing.inference_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-28 16:38:03,638 - processing.inference_preprocessing - INFO - Extracting Sentiment
+2024-03-28 16:38:05,400 - processing.inference_preprocessing - INFO - Extracting Moderate
+2024-03-28 16:38:06,761 - processing.inference_preprocessing - INFO - Extracting Entity
+2024-03-28 17:18:18,829 - processing.inference_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-28 17:18:19,004 - processing.inference_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-28 17:18:19,005 - processing.inference_preprocessing - INFO - Start Data preprocessing
+2024-03-28 17:18:19,013 - processing.inference_preprocessing - INFO - Start Data tokenize
+2024-03-28 17:18:19,014 - processing.inference_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-28 17:18:20,076 - processing.inference_preprocessing - INFO - Extracting Sentiment
+2024-03-28 17:18:21,885 - processing.inference_preprocessing - INFO - Extracting Moderate
+2024-03-28 17:18:22,782 - processing.inference_preprocessing - INFO - Extracting Entity
+2024-03-28 17:21:15,130 - processing.inference_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-28 17:21:15,280 - processing.inference_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-28 17:21:15,280 - processing.inference_preprocessing - INFO - Start Data preprocessing
+2024-03-28 17:21:15,289 - processing.inference_preprocessing - INFO - Start Data tokenize
+2024-03-28 17:21:15,289 - processing.inference_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-28 17:21:16,350 - processing.inference_preprocessing - INFO - Extracting Sentiment
+2024-03-28 17:21:17,666 - processing.inference_preprocessing - INFO - Extracting Moderate
+2024-03-28 17:21:18,628 - processing.inference_preprocessing - INFO - Extracting Entity
+2024-03-28 17:23:34,243 - processing.inference_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-28 17:23:34,243 - processing.inference_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-28 17:23:34,344 - processing.inference_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-28 17:23:34,344 - processing.inference_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-28 17:23:34,344 - processing.inference_preprocessing - INFO - Start Data preprocessing
+2024-03-28 17:23:34,344 - processing.inference_preprocessing - INFO - Start Data preprocessing
+2024-03-28 17:23:34,351 - processing.inference_preprocessing - INFO - Start Data tokenize
+2024-03-28 17:23:34,351 - processing.inference_preprocessing - INFO - Start Data tokenize
+2024-03-28 17:23:34,351 - processing.inference_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-28 17:23:34,351 - processing.inference_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-28 17:23:34,355 - processing.inference_preprocessing - INFO - Extracting Sentiment
+2024-03-28 17:23:34,355 - processing.inference_preprocessing - INFO - Extracting Sentiment
+2024-03-28 17:23:36,179 - processing.inference_preprocessing - INFO - Extracting Moderate
+2024-03-28 17:23:36,179 - processing.inference_preprocessing - INFO - Extracting Moderate
+2024-03-28 17:23:37,583 - processing.inference_preprocessing - INFO - Extracting Entity
+2024-03-28 17:23:37,583 - processing.inference_preprocessing - INFO - Extracting Entity
+2024-03-28 17:23:59,382 - processing.inference_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-28 17:23:59,498 - processing.inference_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-28 17:23:59,498 - processing.inference_preprocessing - INFO - Start Data preprocessing
+2024-03-28 17:23:59,507 - processing.inference_preprocessing - INFO - Start Data tokenize
+2024-03-28 17:23:59,507 - processing.inference_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-28 17:24:00,563 - processing.inference_preprocessing - INFO - Extracting Sentiment
+2024-03-28 17:24:02,339 - processing.inference_preprocessing - INFO - Extracting Moderate
+2024-03-28 17:24:03,740 - processing.inference_preprocessing - INFO - Extracting Entity
+2024-03-28 17:25:05,100 - processing.inference_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-28 17:25:05,218 - processing.inference_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-28 17:25:05,218 - processing.inference_preprocessing - INFO - Start Data preprocessing
+2024-03-28 17:25:05,227 - processing.inference_preprocessing - INFO - Start Data tokenize
+2024-03-28 17:25:05,227 - processing.inference_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-28 17:25:06,284 - processing.inference_preprocessing - INFO - Extracting Sentiment
+2024-03-28 17:25:07,599 - processing.inference_preprocessing - INFO - Extracting Moderate
+2024-03-28 17:25:08,519 - processing.inference_preprocessing - INFO - Extracting Entity
+2024-03-28 17:26:28,539 - processing.inference_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-28 17:26:28,667 - processing.inference_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-28 17:26:28,667 - processing.inference_preprocessing - INFO - Start Data preprocessing
+2024-03-28 17:26:28,676 - processing.inference_preprocessing - INFO - Start Data tokenize
+2024-03-28 17:26:28,676 - processing.inference_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-28 17:26:29,729 - processing.inference_preprocessing - INFO - Extracting Sentiment
+2024-03-28 17:26:30,978 - processing.inference_preprocessing - INFO - Extracting Moderate
+2024-03-28 17:26:32,342 - processing.inference_preprocessing - INFO - Extracting Entity
+2024-04-02 10:01:09,796 - processing.inference_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-04-02 10:01:11,105 - processing.inference_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-04-02 10:01:11,105 - processing.inference_preprocessing - INFO - Start Data preprocessing
+2024-04-02 10:01:11,191 - processing.inference_preprocessing - INFO - Start Data tokenize
+2024-04-02 10:01:11,191 - processing.inference_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-04-02 10:01:12,393 - processing.inference_preprocessing - INFO - Extracting Sentiment
+2024-04-02 10:01:13,760 - processing.inference_preprocessing - INFO - Extracting Moderate
+2024-04-02 10:01:14,630 - processing.inference_preprocessing - INFO - Extracting Entity
+2024-04-02 11:11:12,940 - processing.inference_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-04-02 11:11:13,137 - processing.inference_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-04-02 11:11:13,137 - processing.inference_preprocessing - INFO - Start Data preprocessing
+2024-04-02 11:11:13,147 - processing.inference_preprocessing - INFO - Start Data tokenize
+2024-04-02 11:11:13,147 - processing.inference_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-04-02 11:11:14,311 - processing.inference_preprocessing - INFO - Extracting Sentiment
+2024-04-02 11:11:16,142 - processing.inference_preprocessing - INFO - Extracting Moderate
+2024-04-02 11:11:16,602 - processing.inference_preprocessing - INFO - Extracting Entity

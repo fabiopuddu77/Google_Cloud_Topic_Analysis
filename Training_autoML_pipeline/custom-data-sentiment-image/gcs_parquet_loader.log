@@ -1,0 +1,75 @@
+2024-03-22 11:09:27,721 - processing.sentiment - INFO - Check if the file in exists in gcs step3_pipeline.parquet
+2024-03-22 11:09:27,772 - processing.sentiment - INFO - Start loading DataFrame from pipeline/step2_pipeline.parquet
+2024-03-22 11:09:29,284 - processing.sentiment - INFO - Loaded DataFrame from pipeline/step2_pipeline.parquet
+2024-03-22 11:09:29,286 - processing.sentiment - INFO - Start loading DataFrame from pipeline/step2_pipeline.parquet
+2024-03-22 11:09:29,532 - processing.sentiment - INFO - Loaded DataFrame from pipeline/step2_pipeline.parquet
+2024-03-22 11:09:29,534 - processing.sentiment - INFO - Extracting Sentiment
+2024-03-22 11:09:38,985 - processing.sentiment - INFO - Sentiment extracted - process completed and file saved to GCS.
+2024-03-23 00:46:18,672 - processing.sentiment - INFO - Check if the file in exists in gcs step3_pipeline.parquet
+2024-03-23 00:46:18,716 - processing.sentiment - INFO - Start loading DataFrame from step2_pipeline.parquet
+2024-03-23 00:46:18,982 - processing.sentiment - INFO - Loaded DataFrame from step2_pipeline.parquet
+2024-03-23 00:46:18,983 - processing.sentiment - INFO - Extracting Sentiment
+2024-03-23 00:46:28,150 - processing.sentiment - INFO - Sentiment extracted - process completed and file saved to GCS.
+2024-03-23 00:47:49,753 - processing.sentiment - INFO - Check if the file in exists in gcs step3_pipeline.parquet
+2024-03-23 00:47:49,753 - processing.sentiment - INFO - Check if the file in exists in gcs step3_pipeline.parquet
+2024-03-23 00:47:49,790 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-23 00:47:49,790 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-26 16:03:19,705 - processing.sentiment - INFO - Check if the file in exists in gcs test_sentiment.parquet
+2024-03-26 16:03:19,752 - processing.sentiment - INFO - Start loading DataFrame from output_tokenized.parquet
+2024-03-26 16:03:19,821 - processing.sentiment - INFO - Loaded DataFrame from output_tokenized.parquet
+2024-03-26 16:03:19,822 - processing.sentiment - INFO - Extracting Sentiment
+2024-03-26 16:03:28,240 - processing.sentiment - INFO - Sentiment extracted - process completed and file saved to GCS.
+2024-03-26 16:17:09,405 - processing.sentiment - INFO - Check if the file in exists in gcs test_sentiment.parquet
+2024-03-26 16:17:09,405 - processing.sentiment - INFO - Check if the file in exists in gcs test_sentiment.parquet
+2024-03-26 16:17:09,452 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-26 16:17:09,452 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-26 16:17:27,522 - processing.sentiment - INFO - Check if the file in exists in gcs test_sentiment.parquet
+2024-03-26 16:17:27,522 - processing.sentiment - INFO - Check if the file in exists in gcs test_sentiment.parquet
+2024-03-26 16:17:27,522 - processing.sentiment - INFO - Check if the file in exists in gcs test_sentiment.parquet
+2024-03-26 16:17:27,562 - processing.sentiment - INFO - Start loading DataFrame from output_tokenized.parquet
+2024-03-26 16:17:27,562 - processing.sentiment - INFO - Start loading DataFrame from output_tokenized.parquet
+2024-03-26 16:17:27,562 - processing.sentiment - INFO - Start loading DataFrame from output_tokenized.parquet
+2024-03-26 16:17:27,649 - processing.sentiment - INFO - Loaded DataFrame from output_tokenized.parquet
+2024-03-26 16:17:27,649 - processing.sentiment - INFO - Loaded DataFrame from output_tokenized.parquet
+2024-03-26 16:17:27,649 - processing.sentiment - INFO - Loaded DataFrame from output_tokenized.parquet
+2024-03-26 16:17:27,650 - processing.sentiment - INFO - Extracting Sentiment
+2024-03-26 16:17:27,650 - processing.sentiment - INFO - Extracting Sentiment
+2024-03-26 16:17:27,650 - processing.sentiment - INFO - Extracting Sentiment
+2024-03-26 16:17:34,886 - processing.sentiment - INFO - Sentiment extracted - process completed and file saved to GCS.
+2024-03-26 16:17:34,886 - processing.sentiment - INFO - Sentiment extracted - process completed and file saved to GCS.
+2024-03-26 16:17:34,886 - processing.sentiment - INFO - Sentiment extracted - process completed and file saved to GCS.
+2024-03-26 16:20:53,665 - processing.sentiment - INFO - Check if the file in exists in gcs test_sentiment.parquet
+2024-03-26 16:20:53,665 - processing.sentiment - INFO - Check if the file in exists in gcs test_sentiment.parquet
+2024-03-26 16:20:53,665 - processing.sentiment - INFO - Check if the file in exists in gcs test_sentiment.parquet
+2024-03-26 16:20:53,665 - processing.sentiment - INFO - Check if the file in exists in gcs test_sentiment.parquet
+2024-03-26 16:20:53,707 - processing.sentiment - INFO - Start loading DataFrame from output_tokenized.parquet
+2024-03-26 16:20:53,707 - processing.sentiment - INFO - Start loading DataFrame from output_tokenized.parquet
+2024-03-26 16:20:53,707 - processing.sentiment - INFO - Start loading DataFrame from output_tokenized.parquet
+2024-03-26 16:20:53,707 - processing.sentiment - INFO - Start loading DataFrame from output_tokenized.parquet
+2024-03-26 16:20:53,762 - processing.sentiment - INFO - Loaded DataFrame from output_tokenized.parquet
+2024-03-26 16:20:53,762 - processing.sentiment - INFO - Loaded DataFrame from output_tokenized.parquet
+2024-03-26 16:20:53,762 - processing.sentiment - INFO - Loaded DataFrame from output_tokenized.parquet
+2024-03-26 16:20:53,762 - processing.sentiment - INFO - Loaded DataFrame from output_tokenized.parquet
+2024-03-26 16:20:53,763 - processing.sentiment - INFO - Extracting Sentiment
+2024-03-26 16:20:53,763 - processing.sentiment - INFO - Extracting Sentiment
+2024-03-26 16:20:53,763 - processing.sentiment - INFO - Extracting Sentiment
+2024-03-26 16:20:53,763 - processing.sentiment - INFO - Extracting Sentiment
+2024-03-26 16:21:02,653 - processing.sentiment - INFO - Sentiment extracted - process completed and file saved to GCS.
+2024-03-26 16:21:02,653 - processing.sentiment - INFO - Sentiment extracted - process completed and file saved to GCS.
+2024-03-26 16:21:02,653 - processing.sentiment - INFO - Sentiment extracted - process completed and file saved to GCS.
+2024-03-26 16:21:02,653 - processing.sentiment - INFO - Sentiment extracted - process completed and file saved to GCS.
+2024-03-26 16:28:41,738 - processing.sentiment - INFO - Check if the file in exists in gcs test_sentiment.parquet
+2024-03-26 16:28:41,782 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-26 16:29:01,172 - processing.sentiment - INFO - Check if the file in exists in gcs test_sentiment.parquet
+2024-03-26 16:29:01,172 - processing.sentiment - INFO - Check if the file in exists in gcs test_sentiment.parquet
+2024-03-26 16:29:01,212 - processing.sentiment - INFO - Start loading DataFrame from output_tokenized.parquet
+2024-03-26 16:29:01,212 - processing.sentiment - INFO - Start loading DataFrame from output_tokenized.parquet
+2024-03-26 16:29:01,262 - processing.sentiment - INFO - Loaded DataFrame from output_tokenized.parquet
+2024-03-26 16:29:01,262 - processing.sentiment - INFO - Loaded DataFrame from output_tokenized.parquet
+2024-03-26 16:29:01,263 - processing.sentiment - INFO - Extracting Sentiment
+2024-03-26 16:29:01,263 - processing.sentiment - INFO - Extracting Sentiment
+2024-03-26 16:30:07,732 - processing.sentiment - INFO - Check if the file in exists in gcs test_sentiment.parquet
+2024-03-26 16:30:07,772 - processing.sentiment - INFO - Start loading DataFrame from output_tokenized.parquet
+2024-03-26 16:30:07,828 - processing.sentiment - INFO - Loaded DataFrame from output_tokenized.parquet
+2024-03-26 16:30:07,829 - processing.sentiment - INFO - Extracting Sentiment
+2024-03-26 16:30:15,329 - processing.sentiment - INFO - Sentiment extracted - process completed and file saved to GCS.

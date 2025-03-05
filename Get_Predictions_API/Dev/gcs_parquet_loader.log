@@ -1,0 +1,172 @@
+2024-03-27 17:29:21,441 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 17:29:21,441 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 17:29:21,488 - obj_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-27 17:29:21,488 - obj_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-27 17:29:21,619 - obj_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-27 17:29:21,619 - obj_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-27 17:29:21,619 - obj_preprocessing - INFO - Loading Data Preparation
+2024-03-27 17:29:21,619 - obj_preprocessing - INFO - Loading Data Preparation
+2024-03-27 17:29:21,619 - obj_preprocessing - INFO - Start Data preprocessing
+2024-03-27 17:29:21,619 - obj_preprocessing - INFO - Start Data preprocessing
+2024-03-27 17:29:21,628 - obj_preprocessing - INFO - Start Data tokenize
+2024-03-27 17:29:21,628 - obj_preprocessing - INFO - Start Data tokenize
+2024-03-27 17:29:21,629 - obj_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-27 17:29:21,629 - obj_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-27 17:29:22,706 - obj_preprocessing - INFO - Extracting Sentiment
+2024-03-27 17:29:22,706 - obj_preprocessing - INFO - Extracting Sentiment
+2024-03-27 17:31:28,988 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 17:31:29,042 - obj_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-27 17:31:29,160 - obj_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-27 17:31:29,160 - obj_preprocessing - INFO - Loading Data Preparation
+2024-03-27 17:31:29,160 - obj_preprocessing - INFO - Start Data preprocessing
+2024-03-27 17:31:29,170 - obj_preprocessing - INFO - Start Data tokenize
+2024-03-27 17:31:29,170 - obj_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-27 17:31:30,245 - obj_preprocessing - INFO - Extracting Sentiment
+2024-03-27 17:33:01,064 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 17:33:01,106 - obj_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-27 17:33:01,194 - obj_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-27 17:33:01,194 - obj_preprocessing - INFO - Loading Data Preparation
+2024-03-27 17:33:01,195 - obj_preprocessing - INFO - Start Data preprocessing
+2024-03-27 17:33:01,204 - obj_preprocessing - INFO - Start Data tokenize
+2024-03-27 17:33:01,204 - obj_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-27 17:33:02,264 - obj_preprocessing - INFO - Extracting Sentiment
+2024-03-27 17:33:42,765 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 17:33:42,810 - obj_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-27 17:33:42,940 - obj_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-27 17:33:42,940 - obj_preprocessing - INFO - Loading Data Preparation
+2024-03-27 17:33:42,940 - obj_preprocessing - INFO - Start Data preprocessing
+2024-03-27 17:33:42,949 - obj_preprocessing - INFO - Start Data tokenize
+2024-03-27 17:33:42,950 - obj_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-27 17:33:43,996 - obj_preprocessing - INFO - Extracting Sentiment
+2024-03-27 17:34:03,168 - obj_preprocessing - INFO - Extracting Moderate
+2024-03-27 17:34:16,540 - obj_preprocessing - INFO - Extracting Entity
+2024-03-27 17:37:42,179 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 17:37:42,225 - obj_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-27 17:37:42,310 - obj_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-27 17:37:42,310 - obj_preprocessing - INFO - Loading Data Preparation
+2024-03-27 17:37:42,310 - obj_preprocessing - INFO - Start Data preprocessing
+2024-03-27 17:37:42,320 - obj_preprocessing - INFO - Start Data tokenize
+2024-03-27 17:37:42,320 - obj_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-27 17:37:43,367 - obj_preprocessing - INFO - Extracting Sentiment
+2024-03-27 17:37:59,012 - obj_preprocessing - INFO - Extracting Moderate
+2024-03-27 17:38:10,574 - obj_preprocessing - INFO - Extracting Entity
+2024-03-27 17:38:23,179 - obj_preprocessing - INFO - Dataframe final saved to GCS
+2024-03-27 17:38:23,184 - obj_preprocessing - INFO -  Dataframe finale saved to Big Query
+2024-03-27 17:38:23,184 - obj_preprocessing - INFO - Dataset preprocessed- process completed and file saved to GCS.
+2024-03-27 17:53:32,459 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 17:53:32,528 - obj_preprocessing - INFO - step_final_bq.parquet  already exists in GCS. Skipping process.
+2024-03-27 17:58:05,803 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 17:58:05,845 - obj_preprocessing - INFO - step_final_bq.parquet  already exists in GCS. Skipping process.
+2024-03-27 17:58:18,414 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 17:58:18,414 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 17:58:18,448 - obj_preprocessing - INFO - step_final_bq.parquet  already exists in GCS. Skipping process.
+2024-03-27 17:58:18,448 - obj_preprocessing - INFO - step_final_bq.parquet  already exists in GCS. Skipping process.
+2024-03-27 18:01:47,739 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 18:01:47,780 - obj_preprocessing - INFO - step_final_bq.parquet already exists in GCS. Skipping process.
+2024-03-27 18:01:52,203 - obj_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-27 18:01:52,203 - obj_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-27 18:01:52,338 - obj_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-27 18:01:52,338 - obj_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-27 18:01:52,338 - obj_preprocessing - INFO - Loading Data Preparation
+2024-03-27 18:01:52,338 - obj_preprocessing - INFO - Loading Data Preparation
+2024-03-27 18:01:52,338 - obj_preprocessing - INFO - Start Data preprocessing
+2024-03-27 18:01:52,338 - obj_preprocessing - INFO - Start Data preprocessing
+2024-03-27 18:01:52,347 - obj_preprocessing - INFO - Start Data tokenize
+2024-03-27 18:01:52,347 - obj_preprocessing - INFO - Start Data tokenize
+2024-03-27 18:01:52,348 - obj_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-27 18:01:52,348 - obj_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-27 18:01:53,393 - obj_preprocessing - INFO - Extracting Sentiment
+2024-03-27 18:01:53,393 - obj_preprocessing - INFO - Extracting Sentiment
+2024-03-27 18:02:11,035 - obj_preprocessing - INFO - Extracting Moderate
+2024-03-27 18:02:11,035 - obj_preprocessing - INFO - Extracting Moderate
+2024-03-27 18:02:23,354 - obj_preprocessing - INFO - Extracting Entity
+2024-03-27 18:02:23,354 - obj_preprocessing - INFO - Extracting Entity
+2024-03-27 18:02:36,052 - obj_preprocessing - INFO - Dataframe final saved to GCS
+2024-03-27 18:02:36,052 - obj_preprocessing - INFO - Dataframe final saved to GCS
+2024-03-27 18:02:36,061 - obj_preprocessing - INFO -  Dataframe finale saved to Big Query
+2024-03-27 18:02:36,061 - obj_preprocessing - INFO -  Dataframe finale saved to Big Query
+2024-03-27 18:02:36,061 - obj_preprocessing - INFO - Dataset preprocessed- process completed and file saved to GCS.
+2024-03-27 18:02:36,061 - obj_preprocessing - INFO - Dataset preprocessed- process completed and file saved to GCS.
+2024-03-27 18:04:25,766 - obj_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-27 18:04:25,896 - obj_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-27 18:04:25,896 - obj_preprocessing - INFO - Loading Data Preparation
+2024-03-27 18:04:25,896 - obj_preprocessing - INFO - Start Data preprocessing
+2024-03-27 18:04:25,905 - obj_preprocessing - INFO - Start Data tokenize
+2024-03-27 18:04:25,906 - obj_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-27 18:04:26,959 - obj_preprocessing - INFO - Extracting Sentiment
+2024-03-27 18:04:43,490 - obj_preprocessing - INFO - Extracting Moderate
+2024-03-27 18:04:54,614 - obj_preprocessing - INFO - Extracting Entity
+2024-03-27 18:05:10,072 - obj_preprocessing - INFO - Dataframe final saved to GCS
+2024-03-27 18:05:13,154 - obj_preprocessing - INFO -  Dataframe finale saved to Big Query
+2024-03-27 18:05:13,154 - obj_preprocessing - INFO - Dataset preprocessed- process completed and file saved to GCS.
+2024-03-27 18:17:15,574 - obj_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-27 18:17:15,674 - obj_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-27 18:17:15,674 - obj_preprocessing - INFO - Loading Data Preparation
+2024-03-27 18:17:15,674 - obj_preprocessing - INFO - Start Data preprocessing
+2024-03-27 18:17:15,684 - obj_preprocessing - INFO - Start Data tokenize
+2024-03-27 18:17:15,684 - obj_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-27 18:17:16,743 - obj_preprocessing - INFO - Extracting Sentiment
+2024-03-27 18:17:33,147 - obj_preprocessing - INFO - Extracting Moderate
+2024-03-27 18:17:46,924 - obj_preprocessing - INFO - Extracting Entity
+2024-03-27 18:18:03,207 - obj_preprocessing - INFO - Dataframe final saved to GCS
+2024-03-27 18:18:06,207 - obj_preprocessing - INFO -  Dataframe finale saved to Big Query
+2024-03-27 18:20:42,907 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 18:20:42,949 - obj_preprocessing - INFO - step_final_bq.parquet already exists in GCS. Skipping process.
+2024-03-27 18:24:50,292 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 18:24:50,335 - obj_preprocessing - INFO - step_final_bq.parquet already exists in GCS. Skipping process.
+2024-03-27 18:25:02,293 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 18:25:02,293 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 18:25:02,337 - obj_preprocessing - INFO - step_final_bq.parquet already exists in GCS. Skipping process.
+2024-03-27 18:25:02,337 - obj_preprocessing - INFO - step_final_bq.parquet already exists in GCS. Skipping process.
+2024-03-27 18:25:54,924 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 18:25:54,961 - obj_preprocessing - INFO - step_final_bq.parquet already exists in GCS. Skipping process.
+2024-03-27 18:29:41,608 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 18:29:41,652 - obj_preprocessing - INFO - step_final_bq.parquet already exists in GCS. Skipping process.
+2024-03-27 18:30:53,464 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 18:30:53,514 - obj_preprocessing - INFO - step_final_bq.parquet already exists in GCS. Skipping process.
+2024-03-27 18:34:08,137 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 18:34:08,137 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 18:34:08,176 - obj_preprocessing - INFO - step_final_bq.parquet already exists in GCS. Skipping process.
+2024-03-27 18:34:08,176 - obj_preprocessing - INFO - step_final_bq.parquet already exists in GCS. Skipping process.
+2024-03-27 19:15:27,131 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 19:15:27,176 - obj_preprocessing - INFO - step_final_bq.parquet already exists in GCS. Skipping process.
+2024-03-27 19:18:42,072 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 19:18:42,072 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 19:18:42,117 - obj_preprocessing - INFO - step_final_bq.parquet already exists in GCS. Skipping process.
+2024-03-27 19:18:42,117 - obj_preprocessing - INFO - step_final_bq.parquet already exists in GCS. Skipping process.
+2024-03-27 19:19:23,173 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 19:19:23,215 - obj_preprocessing - INFO - step_final_bq.parquet already exists in GCS. Skipping process.
+2024-03-27 19:20:48,837 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 19:20:48,837 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 19:20:48,877 - obj_preprocessing - INFO - step_final_bq.parquet already exists in GCS. Skipping process.
+2024-03-27 19:20:48,877 - obj_preprocessing - INFO - step_final_bq.parquet already exists in GCS. Skipping process.
+2024-03-27 19:21:14,349 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 19:21:14,349 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 19:21:14,349 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 19:21:14,386 - obj_preprocessing - INFO - step_final_bq.parquet already exists in GCS. Skipping process.
+2024-03-27 19:21:14,386 - obj_preprocessing - INFO - step_final_bq.parquet already exists in GCS. Skipping process.
+2024-03-27 19:21:14,386 - obj_preprocessing - INFO - step_final_bq.parquet already exists in GCS. Skipping process.
+2024-03-27 20:12:46,907 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 20:12:46,948 - obj_preprocessing - INFO - step_final_bq.parquet already exists in GCS. Skipping process.
+2024-03-27 20:13:04,054 - obj_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-27 20:13:04,054 - obj_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-27 20:13:04,223 - obj_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-27 20:13:04,223 - obj_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-27 20:13:04,224 - obj_preprocessing - INFO - Loading Data Preparation
+2024-03-27 20:13:04,224 - obj_preprocessing - INFO - Loading Data Preparation
+2024-03-27 20:13:04,224 - obj_preprocessing - INFO - Start Data preprocessing
+2024-03-27 20:13:04,224 - obj_preprocessing - INFO - Start Data preprocessing
+2024-03-27 20:13:04,233 - obj_preprocessing - INFO - Start Data tokenize
+2024-03-27 20:13:04,233 - obj_preprocessing - INFO - Start Data tokenize
+2024-03-27 20:13:04,233 - obj_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-27 20:13:04,233 - obj_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-27 20:13:05,266 - obj_preprocessing - INFO - Extracting Sentiment
+2024-03-27 20:13:05,266 - obj_preprocessing - INFO - Extracting Sentiment
+2024-03-27 20:13:23,105 - obj_preprocessing - INFO - Extracting Moderate
+2024-03-27 20:13:23,105 - obj_preprocessing - INFO - Extracting Moderate
+2024-03-27 20:13:36,847 - obj_preprocessing - INFO - Extracting Entity
+2024-03-27 20:13:36,847 - obj_preprocessing - INFO - Extracting Entity
+2024-03-27 20:13:52,146 - obj_preprocessing - INFO - Dataframe final saved to GCS
+2024-03-27 20:13:52,146 - obj_preprocessing - INFO - Dataframe final saved to GCS
+2024-03-27 20:13:54,995 - obj_preprocessing - INFO -  Dataframe finale saved to Big Query
+2024-03-27 20:13:54,995 - obj_preprocessing - INFO -  Dataframe finale saved to Big Query

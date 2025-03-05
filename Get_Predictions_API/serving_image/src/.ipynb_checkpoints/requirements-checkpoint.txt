@@ -1,0 +1,11 @@
+pandas
+fastapi==0.68.0
+uvicorn==0.15.0
+workalendar
+tensorflow==2.15.0.post1
+google-cloud-aiplatform==1.41.0
+google-cloud-logging
+google-api-python-client
+google-cloud
+tabulate
+typing

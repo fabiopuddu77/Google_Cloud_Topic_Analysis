@@ -1,0 +1,1061 @@
+2024-03-26 11:34:33,071 - processing.data_preparation - INFO - Check if the file in exists in gcs step1_pipeline.parquet
+2024-03-26 11:34:33,122 - processing.data_preparation - INFO - Start loading DataFrame from file_test.parquet
+2024-03-26 11:34:33,145 - processing.data_preparation - ERROR - Error loading Parquet file from GCS: 404 GET https://storage.googleapis.com/download/storage/v1/b/ccai-storage/o/make_prediction%2Ffile_test.parquet?alt=media: No such object: ccai-storage/make_prediction/file_test.parquet: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2024-03-26 11:34:33,145 - processing.data_preparation - INFO - File file_test.parquet doesn't exists
+2024-03-26 11:35:42,955 - processing.data_preparation - INFO - Check if the file in exists in gcs step1_pipeline.parquet
+2024-03-26 11:35:42,955 - processing.data_preparation - INFO - Check if the file in exists in gcs step1_pipeline.parquet
+2024-03-26 11:35:42,996 - processing.data_preparation - INFO - Start loading DataFrame from test_file.parquet
+2024-03-26 11:35:42,996 - processing.data_preparation - INFO - Start loading DataFrame from test_file.parquet
+2024-03-26 11:35:43,019 - processing.data_preparation - ERROR - Error loading Parquet file from GCS: 404 GET https://storage.googleapis.com/download/storage/v1/b/ccai-storage/o/make_prediction%2Ftest_file.parquet?alt=media: No such object: ccai-storage/make_prediction/test_file.parquet: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2024-03-26 11:35:43,019 - processing.data_preparation - ERROR - Error loading Parquet file from GCS: 404 GET https://storage.googleapis.com/download/storage/v1/b/ccai-storage/o/make_prediction%2Ftest_file.parquet?alt=media: No such object: ccai-storage/make_prediction/test_file.parquet: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2024-03-26 11:35:43,019 - processing.data_preparation - INFO - File test_file.parquet doesn't exists
+2024-03-26 11:35:43,019 - processing.data_preparation - INFO - File test_file.parquet doesn't exists
+2024-03-26 11:37:09,173 - processing.data_preparation - INFO - Check if the file in exists in gcs step1_pipeline.parquet
+2024-03-26 11:37:09,173 - processing.data_preparation - INFO - Check if the file in exists in gcs step1_pipeline.parquet
+2024-03-26 11:37:09,173 - processing.data_preparation - INFO - Check if the file in exists in gcs step1_pipeline.parquet
+2024-03-26 11:37:09,214 - processing.data_preparation - INFO - Start loading DataFrame from test_file.parquet
+2024-03-26 11:37:09,214 - processing.data_preparation - INFO - Start loading DataFrame from test_file.parquet
+2024-03-26 11:37:09,214 - processing.data_preparation - INFO - Start loading DataFrame from test_file.parquet
+2024-03-26 11:37:09,298 - processing.data_preparation - INFO - Loaded DataFrame from test_file.parquet
+2024-03-26 11:37:09,298 - processing.data_preparation - INFO - Loaded DataFrame from test_file.parquet
+2024-03-26 11:37:09,298 - processing.data_preparation - INFO - Loaded DataFrame from test_file.parquet
+2024-03-26 11:37:09,299 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-26 11:37:09,299 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-26 11:37:09,299 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-26 11:38:01,050 - processing.data_preparation - INFO - Check if the file in exists in gcs step1_pipeline.parquet
+2024-03-26 11:38:01,092 - processing.data_preparation - INFO - Start loading DataFrame from test_file.parquet
+2024-03-26 11:38:01,201 - processing.data_preparation - INFO - Loaded DataFrame from test_file.parquet
+2024-03-26 11:38:01,201 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-26 11:38:48,542 - processing.data_preparation - INFO - Check if the file in exists in gcs step1_pipeline.parquet
+2024-03-26 11:38:48,584 - processing.data_preparation - INFO - Start loading DataFrame from test_file.parquet
+2024-03-26 11:38:48,698 - processing.data_preparation - INFO - Loaded DataFrame from test_file.parquet
+2024-03-26 11:38:48,699 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-26 11:38:48,791 - processing.data_preparation - INFO - Dataset preprocessed- process completed and file saved to GCS.
+2024-03-26 11:39:49,824 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 11:39:49,824 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 11:39:49,870 - processing.data_preparation - INFO - Start loading DataFrame from test_file.parquet
+2024-03-26 11:39:49,870 - processing.data_preparation - INFO - Start loading DataFrame from test_file.parquet
+2024-03-26 11:39:49,942 - processing.data_preparation - INFO - Loaded DataFrame from test_file.parquet
+2024-03-26 11:39:49,942 - processing.data_preparation - INFO - Loaded DataFrame from test_file.parquet
+2024-03-26 11:39:49,942 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-26 11:39:49,942 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-26 11:39:50,052 - processing.data_preparation - INFO - Dataset preprocessed- process completed and file saved to GCS.
+2024-03-26 11:39:50,052 - processing.data_preparation - INFO - Dataset preprocessed- process completed and file saved to GCS.
+2024-03-26 11:43:01,158 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 11:43:01,205 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-26 11:44:55,335 - processing.data_preparation - INFO - Check if the file in exists in gcs 1
+2024-03-26 11:44:55,335 - processing.data_preparation - INFO - Check if the file in exists in gcs 1
+2024-03-26 11:44:55,384 - processing.data_preparation - INFO - Start loading DataFrame from make_prediction
+2024-03-26 11:44:55,384 - processing.data_preparation - INFO - Start loading DataFrame from make_prediction
+2024-03-26 11:44:55,416 - processing.data_preparation - ERROR - Error loading Parquet file from GCS: 404 GET https://storage.googleapis.com/download/storage/v1/b/ccai-storage/o/test_file.parquet%2Fmake_prediction?alt=media: No such object: ccai-storage/test_file.parquet/make_prediction: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2024-03-26 11:44:55,416 - processing.data_preparation - ERROR - Error loading Parquet file from GCS: 404 GET https://storage.googleapis.com/download/storage/v1/b/ccai-storage/o/test_file.parquet%2Fmake_prediction?alt=media: No such object: ccai-storage/test_file.parquet/make_prediction: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2024-03-26 11:44:55,417 - processing.data_preparation - INFO - File make_prediction doesn't exists
+2024-03-26 11:44:55,417 - processing.data_preparation - INFO - File make_prediction doesn't exists
+2024-03-26 11:46:33,695 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 11:46:33,695 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 11:46:33,695 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 11:46:33,737 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-26 11:46:33,737 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-26 11:46:33,737 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-26 11:46:59,953 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 11:46:59,953 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 11:46:59,953 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 11:46:59,953 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 11:46:59,989 - processing.data_preparation - INFO - Start loading DataFrame from test_file.parquet
+2024-03-26 11:46:59,989 - processing.data_preparation - INFO - Start loading DataFrame from test_file.parquet
+2024-03-26 11:46:59,989 - processing.data_preparation - INFO - Start loading DataFrame from test_file.parquet
+2024-03-26 11:46:59,989 - processing.data_preparation - INFO - Start loading DataFrame from test_file.parquet
+2024-03-26 11:47:00,073 - processing.data_preparation - INFO - Loaded DataFrame from test_file.parquet
+2024-03-26 11:47:00,073 - processing.data_preparation - INFO - Loaded DataFrame from test_file.parquet
+2024-03-26 11:47:00,073 - processing.data_preparation - INFO - Loaded DataFrame from test_file.parquet
+2024-03-26 11:47:00,073 - processing.data_preparation - INFO - Loaded DataFrame from test_file.parquet
+2024-03-26 11:47:00,074 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-26 11:47:00,074 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-26 11:47:00,074 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-26 11:47:00,074 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-26 11:47:00,213 - processing.data_preparation - INFO - Dataset preprocessed- process completed and file saved to GCS.
+2024-03-26 11:47:00,213 - processing.data_preparation - INFO - Dataset preprocessed- process completed and file saved to GCS.
+2024-03-26 11:47:00,213 - processing.data_preparation - INFO - Dataset preprocessed- process completed and file saved to GCS.
+2024-03-26 11:47:00,213 - processing.data_preparation - INFO - Dataset preprocessed- process completed and file saved to GCS.
+2024-03-26 11:50:34,461 - processing.data_preparation - INFO - Check if the file in exists in gcs 1
+2024-03-26 11:50:34,461 - processing.data_preparation - INFO - Check if the file in exists in gcs 1
+2024-03-26 11:50:34,461 - processing.data_preparation - INFO - Check if the file in exists in gcs 1
+2024-03-26 11:50:34,461 - processing.data_preparation - INFO - Check if the file in exists in gcs 1
+2024-03-26 11:50:34,461 - processing.data_preparation - INFO - Check if the file in exists in gcs 1
+2024-03-26 11:50:34,504 - processing.data_preparation - INFO - Start loading DataFrame from make_prediction
+2024-03-26 11:50:34,504 - processing.data_preparation - INFO - Start loading DataFrame from make_prediction
+2024-03-26 11:50:34,504 - processing.data_preparation - INFO - Start loading DataFrame from make_prediction
+2024-03-26 11:50:34,504 - processing.data_preparation - INFO - Start loading DataFrame from make_prediction
+2024-03-26 11:50:34,504 - processing.data_preparation - INFO - Start loading DataFrame from make_prediction
+2024-03-26 11:50:34,539 - processing.data_preparation - ERROR - Error loading Parquet file from GCS: 404 GET https://storage.googleapis.com/download/storage/v1/b/ccai-storage/o/test_file.parquet%2Fmake_prediction?alt=media: No such object: ccai-storage/test_file.parquet/make_prediction: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2024-03-26 11:50:34,539 - processing.data_preparation - ERROR - Error loading Parquet file from GCS: 404 GET https://storage.googleapis.com/download/storage/v1/b/ccai-storage/o/test_file.parquet%2Fmake_prediction?alt=media: No such object: ccai-storage/test_file.parquet/make_prediction: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2024-03-26 11:50:34,539 - processing.data_preparation - ERROR - Error loading Parquet file from GCS: 404 GET https://storage.googleapis.com/download/storage/v1/b/ccai-storage/o/test_file.parquet%2Fmake_prediction?alt=media: No such object: ccai-storage/test_file.parquet/make_prediction: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2024-03-26 11:50:34,539 - processing.data_preparation - ERROR - Error loading Parquet file from GCS: 404 GET https://storage.googleapis.com/download/storage/v1/b/ccai-storage/o/test_file.parquet%2Fmake_prediction?alt=media: No such object: ccai-storage/test_file.parquet/make_prediction: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2024-03-26 11:50:34,539 - processing.data_preparation - ERROR - Error loading Parquet file from GCS: 404 GET https://storage.googleapis.com/download/storage/v1/b/ccai-storage/o/test_file.parquet%2Fmake_prediction?alt=media: No such object: ccai-storage/test_file.parquet/make_prediction: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2024-03-26 11:50:34,540 - processing.data_preparation - INFO - File make_prediction doesn't exists
+2024-03-26 11:50:34,540 - processing.data_preparation - INFO - File make_prediction doesn't exists
+2024-03-26 11:50:34,540 - processing.data_preparation - INFO - File make_prediction doesn't exists
+2024-03-26 11:50:34,540 - processing.data_preparation - INFO - File make_prediction doesn't exists
+2024-03-26 11:50:34,540 - processing.data_preparation - INFO - File make_prediction doesn't exists
+2024-03-26 11:51:46,912 - processing.data_preparation - INFO - Check if the file in exists in gcs 1
+2024-03-26 11:51:46,912 - processing.data_preparation - INFO - Check if the file in exists in gcs 1
+2024-03-26 11:51:46,912 - processing.data_preparation - INFO - Check if the file in exists in gcs 1
+2024-03-26 11:51:46,912 - processing.data_preparation - INFO - Check if the file in exists in gcs 1
+2024-03-26 11:51:46,912 - processing.data_preparation - INFO - Check if the file in exists in gcs 1
+2024-03-26 11:51:46,912 - processing.data_preparation - INFO - Check if the file in exists in gcs 1
+2024-03-26 11:51:46,954 - processing.data_preparation - INFO - Start loading DataFrame from make_prediction
+2024-03-26 11:51:46,954 - processing.data_preparation - INFO - Start loading DataFrame from make_prediction
+2024-03-26 11:51:46,954 - processing.data_preparation - INFO - Start loading DataFrame from make_prediction
+2024-03-26 11:51:46,954 - processing.data_preparation - INFO - Start loading DataFrame from make_prediction
+2024-03-26 11:51:46,954 - processing.data_preparation - INFO - Start loading DataFrame from make_prediction
+2024-03-26 11:51:46,954 - processing.data_preparation - INFO - Start loading DataFrame from make_prediction
+2024-03-26 11:51:46,975 - processing.data_preparation - ERROR - Error loading Parquet file from GCS: 404 GET https://storage.googleapis.com/download/storage/v1/b/ccai-storage/o/test_file.parquet%2Fmake_prediction?alt=media: No such object: ccai-storage/test_file.parquet/make_prediction: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2024-03-26 11:51:46,975 - processing.data_preparation - ERROR - Error loading Parquet file from GCS: 404 GET https://storage.googleapis.com/download/storage/v1/b/ccai-storage/o/test_file.parquet%2Fmake_prediction?alt=media: No such object: ccai-storage/test_file.parquet/make_prediction: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2024-03-26 11:51:46,975 - processing.data_preparation - ERROR - Error loading Parquet file from GCS: 404 GET https://storage.googleapis.com/download/storage/v1/b/ccai-storage/o/test_file.parquet%2Fmake_prediction?alt=media: No such object: ccai-storage/test_file.parquet/make_prediction: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2024-03-26 11:51:46,975 - processing.data_preparation - ERROR - Error loading Parquet file from GCS: 404 GET https://storage.googleapis.com/download/storage/v1/b/ccai-storage/o/test_file.parquet%2Fmake_prediction?alt=media: No such object: ccai-storage/test_file.parquet/make_prediction: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2024-03-26 11:51:46,975 - processing.data_preparation - ERROR - Error loading Parquet file from GCS: 404 GET https://storage.googleapis.com/download/storage/v1/b/ccai-storage/o/test_file.parquet%2Fmake_prediction?alt=media: No such object: ccai-storage/test_file.parquet/make_prediction: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2024-03-26 11:51:46,975 - processing.data_preparation - ERROR - Error loading Parquet file from GCS: 404 GET https://storage.googleapis.com/download/storage/v1/b/ccai-storage/o/test_file.parquet%2Fmake_prediction?alt=media: No such object: ccai-storage/test_file.parquet/make_prediction: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2024-03-26 11:51:46,976 - processing.data_preparation - INFO - File make_prediction doesn't exists
+2024-03-26 11:51:46,976 - processing.data_preparation - INFO - File make_prediction doesn't exists
+2024-03-26 11:51:46,976 - processing.data_preparation - INFO - File make_prediction doesn't exists
+2024-03-26 11:51:46,976 - processing.data_preparation - INFO - File make_prediction doesn't exists
+2024-03-26 11:51:46,976 - processing.data_preparation - INFO - File make_prediction doesn't exists
+2024-03-26 11:51:46,976 - processing.data_preparation - INFO - File make_prediction doesn't exists
+2024-03-26 11:58:34,110 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 11:58:34,152 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-26 11:59:00,251 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 11:59:00,251 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 11:59:00,296 - processing.data_preparation - INFO - Start loading DataFrame from test_file.parquet
+2024-03-26 11:59:00,296 - processing.data_preparation - INFO - Start loading DataFrame from test_file.parquet
+2024-03-26 11:59:00,392 - processing.data_preparation - INFO - Loaded DataFrame from test_file.parquet
+2024-03-26 11:59:00,392 - processing.data_preparation - INFO - Loaded DataFrame from test_file.parquet
+2024-03-26 11:59:00,392 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-26 11:59:00,392 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-26 11:59:00,494 - processing.data_preparation - INFO - Dataset preprocessed- process completed and file saved to GCS.
+2024-03-26 11:59:00,494 - processing.data_preparation - INFO - Dataset preprocessed- process completed and file saved to GCS.
+2024-03-26 12:01:10,856 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 12:01:10,856 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 12:01:10,856 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 12:01:10,895 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:01:10,895 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:01:10,895 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:01:10,974 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-26 12:01:11,018 - processing.tokenization - INFO - Start loading DataFrame from output_processing.parquet
+2024-03-26 12:01:11,063 - processing.tokenization - INFO - Loaded DataFrame from output_processing.parquet
+2024-03-26 12:01:11,064 - processing.tokenization - INFO - Loading Data Tokenized
+2024-03-26 12:01:11,065 - processing.tokenization - INFO - Starting Tokenization DataFrame from output_processing.parquet
+2024-03-26 12:01:12,220 - processing.tokenization - INFO - Dataframe tokenized - process completed and file saved to GCS.
+2024-03-26 12:06:09,894 - processing.data_preparation - INFO - Check if the file in exists in gcs processed_data.parquet
+2024-03-26 12:06:09,894 - processing.data_preparation - INFO - Check if the file in exists in gcs processed_data.parquet
+2024-03-26 12:06:09,894 - processing.data_preparation - INFO - Check if the file in exists in gcs processed_data.parquet
+2024-03-26 12:06:09,894 - processing.data_preparation - INFO - Check if the file in exists in gcs processed_data.parquet
+2024-03-26 12:06:09,945 - processing.data_preparation - INFO - Start loading DataFrame from test_file.parquet
+2024-03-26 12:06:09,945 - processing.data_preparation - INFO - Start loading DataFrame from test_file.parquet
+2024-03-26 12:06:09,945 - processing.data_preparation - INFO - Start loading DataFrame from test_file.parquet
+2024-03-26 12:06:09,945 - processing.data_preparation - INFO - Start loading DataFrame from test_file.parquet
+2024-03-26 12:06:10,016 - processing.data_preparation - INFO - Loaded DataFrame from test_file.parquet
+2024-03-26 12:06:10,016 - processing.data_preparation - INFO - Loaded DataFrame from test_file.parquet
+2024-03-26 12:06:10,016 - processing.data_preparation - INFO - Loaded DataFrame from test_file.parquet
+2024-03-26 12:06:10,016 - processing.data_preparation - INFO - Loaded DataFrame from test_file.parquet
+2024-03-26 12:06:10,017 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-26 12:06:10,017 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-26 12:06:10,017 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-26 12:06:10,017 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-26 12:06:10,125 - processing.data_preparation - INFO - Dataset preprocessed- process completed and file saved to GCS.
+2024-03-26 12:06:10,125 - processing.data_preparation - INFO - Dataset preprocessed- process completed and file saved to GCS.
+2024-03-26 12:06:10,125 - processing.data_preparation - INFO - Dataset preprocessed- process completed and file saved to GCS.
+2024-03-26 12:06:10,125 - processing.data_preparation - INFO - Dataset preprocessed- process completed and file saved to GCS.
+2024-03-26 12:06:10,134 - processing.tokenization - INFO - Check if the file in exists in gcs tokenized_data.parquet
+2024-03-26 12:06:10,134 - processing.tokenization - INFO - Check if the file in exists in gcs tokenized_data.parquet
+2024-03-26 12:06:10,171 - processing.tokenization - INFO - Start loading DataFrame from processed_data.parquet
+2024-03-26 12:06:10,171 - processing.tokenization - INFO - Start loading DataFrame from processed_data.parquet
+2024-03-26 12:06:10,209 - processing.tokenization - INFO - Loaded DataFrame from processed_data.parquet
+2024-03-26 12:06:10,209 - processing.tokenization - INFO - Loaded DataFrame from processed_data.parquet
+2024-03-26 12:06:10,210 - processing.tokenization - INFO - Loading Data Tokenized
+2024-03-26 12:06:10,210 - processing.tokenization - INFO - Loading Data Tokenized
+2024-03-26 12:06:10,210 - processing.tokenization - INFO - Starting Tokenization DataFrame from processed_data.parquet
+2024-03-26 12:06:10,210 - processing.tokenization - INFO - Starting Tokenization DataFrame from processed_data.parquet
+2024-03-26 12:06:10,308 - processing.tokenization - INFO - Dataframe tokenized - process completed and file saved to GCS.
+2024-03-26 12:06:10,308 - processing.tokenization - INFO - Dataframe tokenized - process completed and file saved to GCS.
+2024-03-26 12:07:52,902 - processing.data_preparation - INFO - Check if the file in exists in gcs processed_data.parquet
+2024-03-26 12:07:52,902 - processing.data_preparation - INFO - Check if the file in exists in gcs processed_data.parquet
+2024-03-26 12:07:52,902 - processing.data_preparation - INFO - Check if the file in exists in gcs processed_data.parquet
+2024-03-26 12:07:52,902 - processing.data_preparation - INFO - Check if the file in exists in gcs processed_data.parquet
+2024-03-26 12:07:52,902 - processing.data_preparation - INFO - Check if the file in exists in gcs processed_data.parquet
+2024-03-26 12:07:52,945 - processing.data_preparation - INFO - processed_data.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:07:52,945 - processing.data_preparation - INFO - processed_data.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:07:52,945 - processing.data_preparation - INFO - processed_data.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:07:52,945 - processing.data_preparation - INFO - processed_data.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:07:52,945 - processing.data_preparation - INFO - processed_data.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:07:52,954 - processing.tokenization - INFO - Check if the file in exists in gcs tokenized_data.parquet
+2024-03-26 12:07:52,954 - processing.tokenization - INFO - Check if the file in exists in gcs tokenized_data.parquet
+2024-03-26 12:07:52,954 - processing.tokenization - INFO - Check if the file in exists in gcs tokenized_data.parquet
+2024-03-26 12:07:52,991 - processing.tokenization - INFO - tokenized_data.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:07:52,991 - processing.tokenization - INFO - tokenized_data.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:07:52,991 - processing.tokenization - INFO - tokenized_data.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:07:53,004 - processing.sentiment - INFO - Check if the file in exists in gcs sentiment_data.parquet
+2024-03-26 12:07:53,042 - processing.sentiment - INFO - Start loading DataFrame from tokenized_data.parquet
+2024-03-26 12:07:53,080 - processing.sentiment - INFO - Loaded DataFrame from tokenized_data.parquet
+2024-03-26 12:07:53,081 - processing.sentiment - INFO - Extracting Sentiment
+2024-03-26 12:07:54,558 - processing.sentiment - INFO - Sentiment extracted - process completed and file saved to GCS.
+2024-03-26 12:07:54,567 - processing.moderate - INFO - Check if the file in exists in gcs moderated_data.parquet
+2024-03-26 12:07:54,606 - processing.moderate - INFO - Start loading DataFrame from sentiment_data.parquet
+2024-03-26 12:07:54,648 - processing.moderate - INFO - Loaded DataFrame from sentiment_data.parquet
+2024-03-26 12:07:54,648 - processing.moderate - INFO - Extracting Moderate
+2024-03-26 12:07:55,081 - processing.moderate - INFO - Moderate extracted - process completed and file saved to GCS.
+2024-03-26 12:07:55,089 - processing.entities - INFO - Check if the file in exists in gcs entity_data.parquet
+2024-03-26 12:07:55,124 - processing.entities - INFO - Start loading DataFrame from moderated_data.parquet
+2024-03-26 12:07:55,165 - processing.entities - INFO - Loaded DataFrame from moderated_data.parquet
+2024-03-26 12:07:55,166 - processing.entities - INFO - Extracting Entity
+2024-03-26 12:07:56,064 - processing.entities - INFO - Entity extracted - process completed and file saved to GCS.
+2024-03-26 12:07:56,078 - processing.bigquery - INFO - Start loading DataFrame from entity_data.parquet
+2024-03-26 12:07:56,132 - processing.bigquery - INFO - Loaded DataFrame from entity_data.parquet
+2024-03-26 12:09:32,910 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 12:09:32,910 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 12:09:32,910 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 12:09:32,910 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 12:09:32,910 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 12:09:32,910 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 12:09:32,952 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:09:32,952 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:09:32,952 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:09:32,952 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:09:32,952 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:09:32,952 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:10:05,401 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 12:10:05,442 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:10:05,634 - processing.data_preparation - INFO - Check if the file in exists in gcs processed_data.parquet
+2024-03-26 12:10:05,634 - processing.data_preparation - INFO - Check if the file in exists in gcs processed_data.parquet
+2024-03-26 12:10:05,669 - processing.data_preparation - INFO - processed_data.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:10:05,669 - processing.data_preparation - INFO - processed_data.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:10:05,746 - processing.tokenization - INFO - Check if the file in exists in gcs tokenized_data.parquet
+2024-03-26 12:10:05,782 - processing.tokenization - INFO - tokenized_data.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:10:05,796 - processing.sentiment - INFO - Check if the file in exists in gcs sentiment_data.parquet
+2024-03-26 12:10:05,834 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-26 12:10:05,841 - processing.moderate - INFO - Check if the file in exists in gcs moderated_data.parquet
+2024-03-26 12:10:05,876 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-26 12:10:05,884 - processing.entities - INFO - Check if the file in exists in gcs entity_data.parquet
+2024-03-26 12:10:05,920 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-26 12:10:05,935 - processing.bigquery - INFO - Start loading DataFrame from entity_data.parquet
+2024-03-26 12:10:06,024 - processing.bigquery - INFO - Loaded DataFrame from entity_data.parquet
+2024-03-26 12:17:21,957 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 12:17:21,957 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 12:17:21,957 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 12:17:21,999 - processing.data_preparation - INFO - Start loading DataFrame from test_file.parquet
+2024-03-26 12:17:21,999 - processing.data_preparation - INFO - Start loading DataFrame from test_file.parquet
+2024-03-26 12:17:21,999 - processing.data_preparation - INFO - Start loading DataFrame from test_file.parquet
+2024-03-26 12:17:22,120 - processing.data_preparation - INFO - Loaded DataFrame from test_file.parquet
+2024-03-26 12:17:22,120 - processing.data_preparation - INFO - Loaded DataFrame from test_file.parquet
+2024-03-26 12:17:22,120 - processing.data_preparation - INFO - Loaded DataFrame from test_file.parquet
+2024-03-26 12:17:22,121 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-26 12:17:22,121 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-26 12:17:22,121 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-26 12:17:22,233 - processing.data_preparation - INFO - Dataset preprocessed- process completed and file saved to GCS.
+2024-03-26 12:17:22,233 - processing.data_preparation - INFO - Dataset preprocessed- process completed and file saved to GCS.
+2024-03-26 12:17:22,233 - processing.data_preparation - INFO - Dataset preprocessed- process completed and file saved to GCS.
+2024-03-26 12:18:02,458 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 12:18:02,458 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 12:18:02,458 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 12:18:02,458 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 12:18:02,501 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:18:02,501 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:18:02,501 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:18:02,501 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:18:02,510 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-26 12:18:02,510 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-26 12:18:02,544 - processing.tokenization - INFO - Start loading DataFrame from output_processing.parquet
+2024-03-26 12:18:02,544 - processing.tokenization - INFO - Start loading DataFrame from output_processing.parquet
+2024-03-26 12:18:02,601 - processing.tokenization - INFO - Loaded DataFrame from output_processing.parquet
+2024-03-26 12:18:02,601 - processing.tokenization - INFO - Loaded DataFrame from output_processing.parquet
+2024-03-26 12:18:02,602 - processing.tokenization - INFO - Loading Data Tokenized
+2024-03-26 12:18:02,602 - processing.tokenization - INFO - Loading Data Tokenized
+2024-03-26 12:18:02,603 - processing.tokenization - INFO - Starting Tokenization DataFrame from output_processing.parquet
+2024-03-26 12:18:02,603 - processing.tokenization - INFO - Starting Tokenization DataFrame from output_processing.parquet
+2024-03-26 12:18:03,766 - processing.tokenization - INFO - Dataframe tokenized - process completed and file saved to GCS.
+2024-03-26 12:18:03,766 - processing.tokenization - INFO - Dataframe tokenized - process completed and file saved to GCS.
+2024-03-26 12:18:03,780 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-26 12:18:03,780 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-26 12:18:03,821 - processing.sentiment - INFO - Start loading DataFrame from output_tokenized.parquet
+2024-03-26 12:18:03,821 - processing.sentiment - INFO - Start loading DataFrame from output_tokenized.parquet
+2024-03-26 12:18:03,852 - processing.sentiment - INFO - Loaded DataFrame from output_tokenized.parquet
+2024-03-26 12:18:03,852 - processing.sentiment - INFO - Loaded DataFrame from output_tokenized.parquet
+2024-03-26 12:18:03,853 - processing.sentiment - INFO - Extracting Sentiment
+2024-03-26 12:18:03,853 - processing.sentiment - INFO - Extracting Sentiment
+2024-03-26 12:18:05,633 - processing.sentiment - INFO - Sentiment extracted - process completed and file saved to GCS.
+2024-03-26 12:18:05,633 - processing.sentiment - INFO - Sentiment extracted - process completed and file saved to GCS.
+2024-03-26 12:18:05,641 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-26 12:18:05,641 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-26 12:18:05,672 - processing.moderate - INFO - Start loading DataFrame from output_sentiment.parquet
+2024-03-26 12:18:05,672 - processing.moderate - INFO - Start loading DataFrame from output_sentiment.parquet
+2024-03-26 12:18:05,702 - processing.moderate - INFO - Loaded DataFrame from output_sentiment.parquet
+2024-03-26 12:18:05,702 - processing.moderate - INFO - Loaded DataFrame from output_sentiment.parquet
+2024-03-26 12:18:05,703 - processing.moderate - INFO - Extracting Moderate
+2024-03-26 12:18:05,703 - processing.moderate - INFO - Extracting Moderate
+2024-03-26 12:18:06,508 - processing.moderate - INFO - Moderate extracted - process completed and file saved to GCS.
+2024-03-26 12:18:06,508 - processing.moderate - INFO - Moderate extracted - process completed and file saved to GCS.
+2024-03-26 12:18:06,516 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-26 12:18:06,516 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-26 12:18:06,552 - processing.entities - INFO - Start loading DataFrame from output_moderate.parquet
+2024-03-26 12:18:06,552 - processing.entities - INFO - Start loading DataFrame from output_moderate.parquet
+2024-03-26 12:18:06,584 - processing.entities - INFO - Loaded DataFrame from output_moderate.parquet
+2024-03-26 12:18:06,584 - processing.entities - INFO - Loaded DataFrame from output_moderate.parquet
+2024-03-26 12:18:06,585 - processing.entities - INFO - Extracting Entity
+2024-03-26 12:18:06,585 - processing.entities - INFO - Extracting Entity
+2024-03-26 12:18:07,929 - processing.entities - INFO - Entity extracted - process completed and file saved to GCS.
+2024-03-26 12:18:07,929 - processing.entities - INFO - Entity extracted - process completed and file saved to GCS.
+2024-03-26 12:18:07,940 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-26 12:18:07,940 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-26 12:18:07,991 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-26 12:18:07,991 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-26 12:31:46,767 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 12:31:46,810 - processing.data_preparation - INFO - Start loading DataFrame from test_file.parquet
+2024-03-26 12:31:46,903 - processing.data_preparation - INFO - Loaded DataFrame from test_file.parquet
+2024-03-26 12:31:46,904 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-26 12:31:47,007 - processing.data_preparation - INFO - Dataset preprocessed- process completed and file saved to GCS.
+2024-03-26 12:31:47,081 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-26 12:31:47,116 - processing.tokenization - INFO - Start loading DataFrame from output_processing.parquet
+2024-03-26 12:31:47,152 - processing.tokenization - INFO - Loaded DataFrame from output_processing.parquet
+2024-03-26 12:31:47,153 - processing.tokenization - INFO - Loading Data Tokenized
+2024-03-26 12:31:47,154 - processing.tokenization - INFO - Starting Tokenization DataFrame from output_processing.parquet
+2024-03-26 12:31:48,517 - processing.tokenization - INFO - Dataframe tokenized - process completed and file saved to GCS.
+2024-03-26 12:31:48,528 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-26 12:31:48,568 - processing.sentiment - INFO - Start loading DataFrame from output_tokenized.parquet
+2024-03-26 12:31:48,602 - processing.sentiment - INFO - Loaded DataFrame from output_tokenized.parquet
+2024-03-26 12:31:48,603 - processing.sentiment - INFO - Extracting Sentiment
+2024-03-26 12:31:50,588 - processing.sentiment - INFO - Sentiment extracted - process completed and file saved to GCS.
+2024-03-26 12:31:50,596 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-26 12:31:50,632 - processing.moderate - INFO - Start loading DataFrame from output_sentiment.parquet
+2024-03-26 12:31:50,665 - processing.moderate - INFO - Loaded DataFrame from output_sentiment.parquet
+2024-03-26 12:31:50,666 - processing.moderate - INFO - Extracting Moderate
+2024-03-26 12:31:51,453 - processing.moderate - INFO - Moderate extracted - process completed and file saved to GCS.
+2024-03-26 12:31:51,460 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-26 12:31:51,494 - processing.entities - INFO - Start loading DataFrame from output_moderate.parquet
+2024-03-26 12:31:51,531 - processing.entities - INFO - Loaded DataFrame from output_moderate.parquet
+2024-03-26 12:31:51,531 - processing.entities - INFO - Extracting Entity
+2024-03-26 12:31:52,768 - processing.entities - INFO - Entity extracted - process completed and file saved to GCS.
+2024-03-26 12:31:52,780 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-26 12:31:52,831 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-26 12:38:55,636 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 12:38:55,678 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:38:55,759 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-26 12:38:55,800 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:38:55,816 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-26 12:38:55,854 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-26 12:38:55,862 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-26 12:38:55,897 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-26 12:38:55,907 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-26 12:38:55,949 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-26 12:38:55,960 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-26 12:38:56,046 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-26 12:43:33,783 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 12:43:33,832 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:43:33,906 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-26 12:43:33,947 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:43:33,964 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-26 12:43:34,006 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-26 12:43:34,016 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-26 12:43:34,057 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-26 12:43:34,065 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-26 12:43:34,102 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-26 12:43:34,116 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-26 12:43:34,202 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-26 12:46:28,834 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 12:46:28,834 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 12:46:28,874 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:46:28,874 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:46:28,883 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-26 12:46:28,883 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-26 12:46:28,921 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:46:28,921 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-26 12:46:28,936 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-26 12:46:28,936 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-26 12:46:28,969 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-26 12:46:28,969 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-26 12:46:28,976 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-26 12:46:28,976 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-26 12:46:29,014 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-26 12:46:29,014 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-26 12:46:29,022 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-26 12:46:29,022 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-26 12:46:29,056 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-26 12:46:29,056 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-26 12:46:29,069 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-26 12:46:29,069 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-26 12:46:29,122 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-26 12:46:29,122 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-26 15:54:28,363 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 15:54:28,516 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-26 15:54:29,144 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-26 15:54:29,209 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-26 15:54:29,223 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-26 15:54:29,262 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-26 15:54:29,274 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-26 15:54:29,325 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-26 15:54:29,333 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-26 15:54:29,369 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-26 15:54:29,382 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-26 15:54:29,484 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-26 15:55:26,776 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 15:55:26,776 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 15:55:26,819 - processing.data_preparation - INFO - Start loading DataFrame from test_file.parquet
+2024-03-26 15:55:26,819 - processing.data_preparation - INFO - Start loading DataFrame from test_file.parquet
+2024-03-26 15:55:26,953 - processing.data_preparation - INFO - Loaded DataFrame from test_file.parquet
+2024-03-26 15:55:26,953 - processing.data_preparation - INFO - Loaded DataFrame from test_file.parquet
+2024-03-26 15:55:26,954 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-26 15:55:26,954 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-26 15:56:33,629 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 15:56:33,673 - processing.data_preparation - INFO - Start loading DataFrame from test_file.parquet
+2024-03-26 15:56:33,787 - processing.data_preparation - INFO - Loaded DataFrame from test_file.parquet
+2024-03-26 15:56:33,788 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-26 15:56:33,982 - processing.data_preparation - INFO - Dataset preprocessed- process completed and file saved to GCS.
+2024-03-26 15:56:34,067 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-26 15:56:34,102 - processing.tokenization - INFO - Start loading DataFrame from output_processing.parquet
+2024-03-26 15:56:34,142 - processing.tokenization - INFO - Loaded DataFrame from output_processing.parquet
+2024-03-26 15:56:34,142 - processing.tokenization - INFO - Loading Data Tokenized
+2024-03-26 15:56:34,143 - processing.tokenization - INFO - Starting Tokenization DataFrame from output_processing.parquet
+2024-03-26 15:56:35,548 - processing.tokenization - INFO - Dataframe tokenized - process completed and file saved to GCS.
+2024-03-26 15:56:35,560 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-26 15:56:35,592 - processing.sentiment - INFO - Start loading DataFrame from output_tokenized.parquet
+2024-03-26 15:56:35,626 - processing.sentiment - INFO - Loaded DataFrame from output_tokenized.parquet
+2024-03-26 15:56:35,627 - processing.sentiment - INFO - Extracting Sentiment
+2024-03-26 15:56:43,311 - processing.sentiment - INFO - Sentiment extracted - process completed and file saved to GCS.
+2024-03-26 15:56:43,318 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-26 15:56:43,356 - processing.moderate - INFO - Start loading DataFrame from output_sentiment.parquet
+2024-03-26 15:56:43,393 - processing.moderate - INFO - Loaded DataFrame from output_sentiment.parquet
+2024-03-26 15:56:43,393 - processing.moderate - INFO - Extracting Moderate
+2024-03-26 15:56:49,086 - processing.moderate - INFO - Moderate extracted - process completed and file saved to GCS.
+2024-03-26 15:56:49,094 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-26 15:56:49,130 - processing.entities - INFO - Start loading DataFrame from output_moderate.parquet
+2024-03-26 15:56:49,165 - processing.entities - INFO - Loaded DataFrame from output_moderate.parquet
+2024-03-26 15:56:49,166 - processing.entities - INFO - Extracting Entity
+2024-03-26 15:56:54,197 - processing.entities - INFO - Entity extracted - process completed and file saved to GCS.
+2024-03-26 15:56:54,209 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-26 15:56:54,259 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-26 16:33:15,640 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-26 16:33:15,681 - processing.data_preparation - INFO - Start loading DataFrame from test_file.parquet
+2024-03-26 16:33:15,795 - processing.data_preparation - INFO - Loaded DataFrame from test_file.parquet
+2024-03-26 16:33:15,795 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-26 16:33:15,906 - processing.data_preparation - INFO - Dataset preprocessed- process completed and file saved to GCS.
+2024-03-26 16:33:15,997 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-26 16:33:16,037 - processing.tokenization - INFO - Start loading DataFrame from output_processing.parquet
+2024-03-26 16:33:16,072 - processing.tokenization - INFO - Loaded DataFrame from output_processing.parquet
+2024-03-26 16:33:16,073 - processing.tokenization - INFO - Loading Data Tokenized
+2024-03-26 16:33:16,073 - processing.tokenization - INFO - Starting Tokenization DataFrame from output_processing.parquet
+2024-03-26 16:33:17,449 - processing.tokenization - INFO - Dataframe tokenized - process completed and file saved to GCS.
+2024-03-26 16:33:17,460 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-26 16:33:17,497 - processing.sentiment - INFO - Start loading DataFrame from output_tokenized.parquet
+2024-03-26 16:33:17,533 - processing.sentiment - INFO - Loaded DataFrame from output_tokenized.parquet
+2024-03-26 16:33:17,533 - processing.sentiment - INFO - Extracting Sentiment
+2024-03-26 16:33:26,014 - processing.sentiment - INFO - Sentiment extracted - process completed and file saved to GCS.
+2024-03-26 16:33:26,022 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-26 16:33:26,063 - processing.moderate - INFO - Start loading DataFrame from output_sentiment.parquet
+2024-03-26 16:33:26,099 - processing.moderate - INFO - Loaded DataFrame from output_sentiment.parquet
+2024-03-26 16:33:26,100 - processing.moderate - INFO - Extracting Moderate
+2024-03-26 16:33:32,072 - processing.moderate - INFO - Moderate extracted - process completed and file saved to GCS.
+2024-03-26 16:33:32,080 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-26 16:33:32,119 - processing.entities - INFO - Start loading DataFrame from output_moderate.parquet
+2024-03-26 16:33:32,156 - processing.entities - INFO - Loaded DataFrame from output_moderate.parquet
+2024-03-26 16:33:32,157 - processing.entities - INFO - Extracting Entity
+2024-03-26 16:33:38,314 - processing.entities - INFO - Entity extracted - process completed and file saved to GCS.
+2024-03-26 16:33:38,327 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-26 16:33:38,379 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 08:35:50,164 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 08:35:50,364 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 08:35:51,107 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 08:35:51,149 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 08:35:51,163 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 08:35:51,253 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 08:35:51,261 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 08:35:51,303 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 08:35:51,310 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 08:35:51,352 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 08:35:51,366 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 08:35:52,575 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 08:44:33,663 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 08:44:33,663 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 08:44:33,732 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 08:44:33,732 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 08:44:33,739 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 08:44:33,739 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 08:44:33,855 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 08:44:33,855 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 08:44:33,867 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 08:44:33,867 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 08:44:33,905 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 08:44:33,905 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 08:44:33,913 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 08:44:33,913 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 08:44:33,949 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 08:44:33,949 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 08:44:33,957 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 08:44:33,957 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 08:44:33,996 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 08:44:33,996 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 08:44:34,007 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 08:44:34,007 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 08:44:34,141 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 08:44:34,141 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 08:54:13,950 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 08:54:14,000 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 08:54:14,069 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 08:54:14,231 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 08:54:14,243 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 08:54:14,273 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 08:54:14,280 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 08:54:14,313 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 08:54:14,320 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 08:54:14,361 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 08:54:14,373 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 08:54:14,484 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 08:56:18,824 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 08:56:18,863 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 08:56:18,944 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 08:56:18,979 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 08:56:18,991 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 08:56:19,067 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 08:56:19,075 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 08:56:19,111 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 08:56:19,118 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 08:56:19,153 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 08:56:19,166 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 08:56:19,317 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 08:57:08,827 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 08:57:08,827 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 08:57:08,886 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 08:57:08,886 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 08:57:08,893 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 08:57:08,893 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 08:57:08,929 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 08:57:08,929 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 08:57:08,942 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 08:57:08,942 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 08:57:08,975 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 08:57:08,975 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 08:57:08,982 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 08:57:08,982 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 08:57:09,016 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 08:57:09,016 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 08:57:09,023 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 08:57:09,023 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 08:57:09,065 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 08:57:09,065 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 08:57:09,075 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 08:57:09,075 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 08:57:09,126 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 08:57:09,126 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 08:58:35,641 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 08:58:35,685 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 08:58:35,756 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 08:58:35,797 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 08:58:35,808 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 08:58:35,842 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 08:58:35,849 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 08:58:35,886 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 08:58:35,893 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 08:58:35,924 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 08:58:35,936 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 08:58:36,096 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:01:28,895 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:01:28,895 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:01:28,938 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:01:28,938 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:01:28,946 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:01:28,946 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:01:28,984 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:01:28,984 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:01:28,999 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:01:28,999 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:01:29,035 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:01:29,035 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:01:29,042 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:01:29,042 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:01:29,076 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:01:29,076 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:01:29,083 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:01:29,083 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:01:29,123 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:01:29,123 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:01:29,134 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:01:29,134 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:01:29,205 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:01:29,205 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:01:48,694 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:01:48,694 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:01:48,694 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:01:48,725 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:01:48,725 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:01:48,725 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:01:48,732 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:01:48,732 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:01:48,732 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:01:48,770 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:01:48,770 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:01:48,770 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:01:48,782 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:01:48,782 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:01:48,782 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:01:48,813 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:01:48,813 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:01:48,813 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:01:48,820 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:01:48,820 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:01:48,820 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:01:48,859 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:01:48,859 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:01:48,859 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:01:48,866 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:01:48,866 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:01:48,866 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:01:48,904 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:01:48,904 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:01:48,904 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:01:48,914 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:01:48,914 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:01:48,914 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:01:48,973 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:01:48,973 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:01:48,973 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:03:00,903 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:03:00,903 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:03:00,903 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:03:00,903 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:03:00,945 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:03:00,945 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:03:00,945 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:03:00,945 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:03:00,955 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:03:00,955 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:03:00,955 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:03:00,955 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:03:00,997 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:03:00,997 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:03:00,997 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:03:00,997 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:03:01,009 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:03:01,009 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:03:01,009 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:03:01,009 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:03:01,047 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:03:01,047 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:03:01,047 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:03:01,047 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:03:01,056 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:03:01,056 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:03:01,056 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:03:01,056 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:03:01,089 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:03:01,089 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:03:01,089 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:03:01,089 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:03:01,097 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:03:01,097 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:03:01,097 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:03:01,097 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:03:01,133 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:03:01,133 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:03:01,133 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:03:01,133 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:03:01,143 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:03:01,143 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:03:01,143 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:03:01,143 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:03:01,208 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:03:01,208 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:03:01,208 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:03:01,208 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:05:44,755 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:05:44,755 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:05:44,755 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:05:44,755 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:05:44,755 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:05:44,791 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:05:44,791 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:05:44,791 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:05:44,791 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:05:44,791 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:05:44,800 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:05:44,800 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:05:44,800 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:05:44,800 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:05:44,800 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:05:44,839 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:05:44,839 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:05:44,839 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:05:44,839 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:05:44,839 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:05:44,853 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:05:44,853 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:05:44,853 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:05:44,853 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:05:44,853 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:05:44,892 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:05:44,892 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:05:44,892 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:05:44,892 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:05:44,892 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:05:44,900 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:05:44,900 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:05:44,900 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:05:44,900 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:05:44,900 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:05:44,936 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:05:44,936 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:05:44,936 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:05:44,936 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:05:44,936 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:05:44,944 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:05:44,944 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:05:44,944 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:05:44,944 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:05:44,944 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:05:44,978 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:05:44,978 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:05:44,978 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:05:44,978 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:05:44,978 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:05:44,991 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:05:44,991 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:05:44,991 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:05:44,991 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:05:44,991 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:05:45,060 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:05:45,060 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:05:45,060 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:05:45,060 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:05:45,060 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:05:59,869 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:05:59,869 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:05:59,869 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:05:59,869 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:05:59,869 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:05:59,869 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:05:59,904 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:05:59,904 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:05:59,904 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:05:59,904 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:05:59,904 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:05:59,904 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:05:59,913 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:05:59,913 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:05:59,913 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:05:59,913 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:05:59,913 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:05:59,913 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:05:59,947 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:05:59,947 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:05:59,947 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:05:59,947 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:05:59,947 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:05:59,947 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:05:59,961 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:05:59,961 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:05:59,961 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:05:59,961 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:05:59,961 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:05:59,961 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:05:59,997 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:05:59,997 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:05:59,997 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:05:59,997 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:05:59,997 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:05:59,997 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:00,005 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:06:00,005 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:06:00,005 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:06:00,005 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:06:00,005 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:06:00,005 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:06:00,040 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:00,040 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:00,040 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:00,040 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:00,040 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:00,040 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:00,048 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:06:00,048 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:06:00,048 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:06:00,048 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:06:00,048 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:06:00,048 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:06:00,091 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:00,091 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:00,091 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:00,091 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:00,091 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:00,091 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:00,104 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:06:00,104 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:06:00,104 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:06:00,104 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:06:00,104 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:06:00,104 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:06:00,154 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:06:00,154 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:06:00,154 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:06:00,154 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:06:00,154 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:06:00,154 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:06:40,079 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:06:40,079 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:06:40,079 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:06:40,079 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:06:40,079 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:06:40,079 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:06:40,079 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:06:40,120 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:06:40,120 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:06:40,120 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:06:40,120 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:06:40,120 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:06:40,120 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:06:40,120 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:06:40,129 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:06:40,129 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:06:40,129 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:06:40,129 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:06:40,129 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:06:40,129 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:06:40,129 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:06:40,163 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:06:40,163 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:06:40,163 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:06:40,163 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:06:40,163 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:06:40,163 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:06:40,163 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:06:40,173 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:06:40,173 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:06:40,173 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:06:40,173 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:06:40,173 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:06:40,173 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:06:40,173 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:06:40,214 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:40,214 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:40,214 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:40,214 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:40,214 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:40,214 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:40,214 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:40,221 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:06:40,221 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:06:40,221 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:06:40,221 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:06:40,221 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:06:40,221 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:06:40,221 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:06:40,259 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:40,259 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:40,259 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:40,259 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:40,259 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:40,259 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:40,259 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:40,266 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:06:40,266 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:06:40,266 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:06:40,266 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:06:40,266 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:06:40,266 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:06:40,266 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:06:40,299 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:40,299 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:40,299 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:40,299 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:40,299 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:40,299 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:40,299 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:06:40,309 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:06:40,309 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:06:40,309 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:06:40,309 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:06:40,309 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:06:40,309 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:06:40,309 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:06:40,364 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:06:40,364 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:06:40,364 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:06:40,364 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:06:40,364 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:06:40,364 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:06:40,364 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:12:13,741 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:12:13,803 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:12:13,874 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:12:13,908 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:12:13,920 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:12:13,957 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:12:13,964 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:12:14,006 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:12:14,013 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:12:14,045 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:12:14,056 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:12:14,153 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:12:38,780 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:12:38,780 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:12:38,814 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:12:38,814 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:12:38,823 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:12:38,823 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:12:38,855 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:12:38,855 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:12:38,868 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:12:38,868 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:12:38,903 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:12:38,903 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:12:38,910 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:12:38,910 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:12:38,945 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:12:38,945 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:12:38,952 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:12:38,952 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:12:38,982 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:12:38,982 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:12:38,993 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:12:38,993 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:12:39,056 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:12:39,056 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:13:16,067 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:13:16,067 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:13:16,067 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:13:16,107 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:13:16,107 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:13:16,107 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:13:16,115 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:13:16,115 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:13:16,115 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:13:16,153 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:13:16,153 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:13:16,153 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:13:16,167 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:13:16,167 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:13:16,167 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:13:16,204 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:13:16,204 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:13:16,204 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:13:16,212 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:13:16,212 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:13:16,212 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:13:16,247 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:13:16,247 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:13:16,247 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:13:16,255 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:13:16,255 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:13:16,255 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:13:16,291 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:13:16,291 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:13:16,291 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:13:16,302 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:13:16,302 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:13:16,302 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:13:16,373 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:13:16,373 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:13:16,373 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:14:15,979 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:14:15,979 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:14:15,979 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:14:15,979 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:14:16,013 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:14:16,013 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:14:16,013 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:14:16,013 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:14:16,022 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:14:16,022 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:14:16,022 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:14:16,022 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:14:16,061 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:14:16,061 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:14:16,061 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:14:16,061 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:14:16,072 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:14:16,072 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:14:16,072 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:14:16,072 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:14:16,104 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:14:16,104 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:14:16,104 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:14:16,104 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:14:16,112 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:14:16,112 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:14:16,112 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:14:16,112 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:14:16,147 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:14:16,147 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:14:16,147 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:14:16,147 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:14:16,155 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:14:16,155 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:14:16,155 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:14:16,155 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:14:16,190 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:14:16,190 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:14:16,190 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:14:16,190 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:14:16,200 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:14:16,200 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:14:16,200 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:14:16,200 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:14:16,266 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:14:16,266 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:14:16,266 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:14:16,266 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:16:27,669 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:16:27,669 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:16:27,669 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:16:27,669 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:16:27,669 - processing.data_preparation - INFO - Check if the file in exists in gcs output_processing.parquet
+2024-03-27 09:16:27,708 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:16:27,708 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:16:27,708 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:16:27,708 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:16:27,708 - processing.data_preparation - INFO - output_processing.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:16:27,716 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:16:27,716 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:16:27,716 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:16:27,716 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:16:27,716 - processing.tokenization - INFO - Check if the file in exists in gcs output_tokenized.parquet
+2024-03-27 09:16:27,758 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:16:27,758 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:16:27,758 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:16:27,758 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:16:27,758 - processing.tokenization - INFO - output_tokenized.parquet  already exists in GCS. Skipping process.
+2024-03-27 09:16:27,770 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:16:27,770 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:16:27,770 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:16:27,770 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:16:27,770 - processing.sentiment - INFO - Check if the file in exists in gcs output_sentiment.parquet
+2024-03-27 09:16:27,802 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:16:27,802 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:16:27,802 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:16:27,802 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:16:27,802 - processing.sentiment - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:16:27,809 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:16:27,809 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:16:27,809 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:16:27,809 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:16:27,809 - processing.moderate - INFO - Check if the file in exists in gcs output_moderate.parquet
+2024-03-27 09:16:27,845 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:16:27,845 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:16:27,845 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:16:27,845 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:16:27,845 - processing.moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:16:27,852 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:16:27,852 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:16:27,852 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:16:27,852 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:16:27,852 - processing.entities - INFO - Check if the file in exists in gcs output_entities.parquet
+2024-03-27 09:16:27,884 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:16:27,884 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:16:27,884 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:16:27,884 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:16:27,884 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-27 09:16:27,896 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:16:27,896 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:16:27,896 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:16:27,896 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:16:27,896 - processing.bigquery - INFO - Start loading DataFrame from output_entities.parquet
+2024-03-27 09:16:27,969 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:16:27,969 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:16:27,969 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:16:27,969 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet
+2024-03-27 09:16:27,969 - processing.bigquery - INFO - Loaded DataFrame from output_entities.parquet

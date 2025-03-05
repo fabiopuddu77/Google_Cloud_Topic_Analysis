@@ -1,0 +1,20 @@
+2024-03-28 16:00:21,750 - processing.inference_prepr_feats_eng - INFO - Start loading DataFrame from test_file.parquet
+2024-03-28 16:00:21,946 - processing.inference_prepr_feats_eng - INFO - Loaded DataFrame from test_file.parquet
+2024-03-28 16:00:21,946 - processing.inference_prepr_feats_eng - INFO - Loading Data Preparation
+2024-03-28 16:00:21,946 - processing.inference_prepr_feats_eng - INFO - Start Data preprocessing
+2024-03-28 16:00:21,956 - processing.inference_prepr_feats_eng - INFO - Start Data tokenize
+2024-03-28 16:00:21,956 - processing.inference_prepr_feats_eng - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-28 16:00:22,987 - processing.inference_prepr_feats_eng - INFO - Extracting Sentiment
+2024-03-28 16:00:41,734 - processing.inference_prepr_feats_eng - INFO - Extracting Moderate
+2024-03-28 16:00:54,577 - processing.inference_prepr_feats_eng - INFO - Extracting Entity
+2024-03-28 16:01:08,504 - processing.inference_prepr_feats_eng - INFO - Dataframe final saved to GCS
+2024-03-28 16:01:11,967 - processing.inference_prepr_feats_eng - INFO -  Dataframe finale saved to Big Query
+2024-03-28 16:02:04,057 - processing.inference_prepr_feats_eng - INFO - Start loading DataFrame from test_file.parquet
+2024-03-28 16:02:04,164 - processing.inference_prepr_feats_eng - INFO - Loaded DataFrame from test_file.parquet
+2024-03-28 16:02:04,164 - processing.inference_prepr_feats_eng - INFO - Loading Data Preparation
+2024-03-28 16:02:04,164 - processing.inference_prepr_feats_eng - INFO - Start Data preprocessing
+2024-03-28 16:02:04,175 - processing.inference_prepr_feats_eng - INFO - Start Data tokenize
+2024-03-28 16:02:04,175 - processing.inference_prepr_feats_eng - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-28 16:02:05,283 - processing.inference_prepr_feats_eng - INFO - Extracting Sentiment
+2024-03-28 16:02:22,001 - processing.inference_prepr_feats_eng - INFO - Extracting Moderate
+2024-03-28 16:02:34,265 - processing.inference_prepr_feats_eng - INFO - Extracting Entity

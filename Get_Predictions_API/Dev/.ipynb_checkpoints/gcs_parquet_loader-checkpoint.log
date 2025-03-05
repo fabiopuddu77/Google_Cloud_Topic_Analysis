@@ -1,0 +1,42 @@
+2024-03-27 17:29:21,441 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 17:29:21,441 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 17:29:21,488 - obj_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-27 17:29:21,488 - obj_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-27 17:29:21,619 - obj_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-27 17:29:21,619 - obj_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-27 17:29:21,619 - obj_preprocessing - INFO - Loading Data Preparation
+2024-03-27 17:29:21,619 - obj_preprocessing - INFO - Loading Data Preparation
+2024-03-27 17:29:21,619 - obj_preprocessing - INFO - Start Data preprocessing
+2024-03-27 17:29:21,619 - obj_preprocessing - INFO - Start Data preprocessing
+2024-03-27 17:29:21,628 - obj_preprocessing - INFO - Start Data tokenize
+2024-03-27 17:29:21,628 - obj_preprocessing - INFO - Start Data tokenize
+2024-03-27 17:29:21,629 - obj_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-27 17:29:21,629 - obj_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-27 17:29:22,706 - obj_preprocessing - INFO - Extracting Sentiment
+2024-03-27 17:29:22,706 - obj_preprocessing - INFO - Extracting Sentiment
+2024-03-27 17:31:28,988 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 17:31:29,042 - obj_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-27 17:31:29,160 - obj_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-27 17:31:29,160 - obj_preprocessing - INFO - Loading Data Preparation
+2024-03-27 17:31:29,160 - obj_preprocessing - INFO - Start Data preprocessing
+2024-03-27 17:31:29,170 - obj_preprocessing - INFO - Start Data tokenize
+2024-03-27 17:31:29,170 - obj_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-27 17:31:30,245 - obj_preprocessing - INFO - Extracting Sentiment
+2024-03-27 17:33:01,064 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 17:33:01,106 - obj_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-27 17:33:01,194 - obj_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-27 17:33:01,194 - obj_preprocessing - INFO - Loading Data Preparation
+2024-03-27 17:33:01,195 - obj_preprocessing - INFO - Start Data preprocessing
+2024-03-27 17:33:01,204 - obj_preprocessing - INFO - Start Data tokenize
+2024-03-27 17:33:01,204 - obj_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-27 17:33:02,264 - obj_preprocessing - INFO - Extracting Sentiment
+2024-03-27 17:33:42,765 - obj_preprocessing - INFO - Check if the file in exists in gcs step_final_bq.parquet
+2024-03-27 17:33:42,810 - obj_preprocessing - INFO - Start loading DataFrame from test_file.parquet
+2024-03-27 17:33:42,940 - obj_preprocessing - INFO - Loaded DataFrame from test_file.parquet
+2024-03-27 17:33:42,940 - obj_preprocessing - INFO - Loading Data Preparation
+2024-03-27 17:33:42,940 - obj_preprocessing - INFO - Start Data preprocessing
+2024-03-27 17:33:42,949 - obj_preprocessing - INFO - Start Data tokenize
+2024-03-27 17:33:42,950 - obj_preprocessing - INFO - Starting Tokenization DataFrame from test_file.parquet
+2024-03-27 17:33:43,996 - obj_preprocessing - INFO - Extracting Sentiment
+2024-03-27 17:34:03,168 - obj_preprocessing - INFO - Extracting Moderate
+2024-03-27 17:34:16,540 - obj_preprocessing - INFO - Extracting Entity

@@ -1,0 +1,14 @@
+
+cd gcp-ccai-auto-ml-contactcenter/End-to-end-AutoML-Topic-Classification/Get_Predictions_API/serving_image/
+
+gcp-ccai-auto-ml-contactcenter/End-to-end-AutoML-Topic-Classification/Get_Predictions_API/serving_image/app.py
+
+cd gcp-ccai-auto-ml-contactcenter/End-to-end-AutoML-Topic-Classification/Get_Predictions_API/serving_image/src/
+
+sudo netstat -tuln | grep ':8081'
+
+uvicorn app:app --reload --port 8081
+
+! sudo kill -9 <PID>
+
+! sudo netstat -tulnp | grep ':8080'

@@ -1,0 +1,48 @@
+2024-03-25 19:21:06,851 - processing.data_preparation - INFO - Check if the file in exists in gcs step1_pipeline.parquet
+2024-03-25 19:21:06,897 - processing.data_preparation - INFO - File already exists in GCS. Skipping process.
+2024-03-25 19:22:26,436 - processing.data_preparation - INFO - Check if the file in exists in gcs step1_pipeline.parquet
+2024-03-25 19:22:26,474 - processing.data_preparation - INFO - step1_pipeline.parquet  already exists in GCS. Skipping process.
+2024-03-25 19:23:08,920 - processing.data_preparation - INFO - Check if the file in exists in gcs step1_pipeline.parquet
+2024-03-25 19:23:08,920 - processing.data_preparation - INFO - Check if the file in exists in gcs step1_pipeline.parquet
+2024-03-25 19:23:08,962 - processing.data_preparation - INFO - Start loading DataFrame from articlesoutput.parquet
+2024-03-25 19:23:08,962 - processing.data_preparation - INFO - Start loading DataFrame from articlesoutput.parquet
+2024-03-25 19:23:25,104 - processing.data_preparation - INFO - Loaded DataFrame from articlesoutput.parquet
+2024-03-25 19:23:25,104 - processing.data_preparation - INFO - Loaded DataFrame from articlesoutput.parquet
+2024-03-25 19:23:25,120 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-25 19:23:25,120 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-25 19:27:43,105 - processing.data_preparation - INFO - Check if the file in exists in gcs step1_pipeline.parquet
+2024-03-25 19:27:43,153 - processing.data_preparation - INFO - Start loading DataFrame from articlesoutput.parquet
+2024-03-25 19:27:58,196 - processing.data_preparation - INFO - Loaded DataFrame from articlesoutput.parquet
+2024-03-25 19:27:58,218 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-25 19:27:58,218 - processing.data_preparation - INFO - Start loading DataFrame from articlesoutput.parquet
+2024-03-25 19:28:14,115 - processing.data_preparation - INFO - Loaded DataFrame from articlesoutput.parquet
+2024-03-25 19:33:32,994 - processing.data_preparation - INFO - Check if the file in exists in gcs step1_pipeline.parquet
+2024-03-25 19:33:33,052 - processing.data_preparation - INFO - Start loading DataFrame from articlesoutput.parquet
+2024-03-25 19:33:48,948 - processing.data_preparation - INFO - Loaded DataFrame from articlesoutput.parquet
+2024-03-25 19:33:48,969 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-25 19:34:19,756 - processing.data_preparation - INFO - Check if the file in exists in gcs step1_pipeline.parquet
+2024-03-25 19:34:19,798 - processing.data_preparation - INFO - Start loading DataFrame from articlesoutput.parquet
+2024-03-25 19:34:35,969 - processing.data_preparation - INFO - Loaded DataFrame from articlesoutput.parquet
+2024-03-25 19:34:35,989 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-25 19:35:19,265 - processing.data_preparation - INFO - Check if the file in exists in gcs step1_pipeline.parquet
+2024-03-25 19:35:19,310 - processing.data_preparation - INFO - Start loading DataFrame from articlesoutput.parquet
+2024-03-25 19:35:34,731 - processing.data_preparation - INFO - Loaded DataFrame from articlesoutput.parquet
+2024-03-25 19:35:34,752 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-25 19:35:37,181 - processing.data_preparation - INFO - Dataset preprocessed- process completed and file saved to GCS.
+2024-03-28 14:21:45,487 - processing.data_preparation - INFO - Check if the file in exists in gcs step1_pipeline.parquet
+2024-03-28 14:21:45,561 - processing.data_preparation - INFO - step1_pipeline.parquet  already exists in GCS. Skipping process.
+2024-03-28 14:22:16,290 - processing.data_preparation - INFO - Check if the file in exists in gcs step1_pipeline.parquet
+2024-03-28 14:22:16,334 - processing.data_preparation - INFO - step1_pipeline.parquet  already exists in GCS. Skipping process.
+2024-03-28 14:22:36,677 - processing.data_preparation - INFO - Check if the file in exists in gcs test_step1_pipeline.parquet
+2024-03-28 14:22:36,677 - processing.data_preparation - INFO - Check if the file in exists in gcs test_step1_pipeline.parquet
+2024-03-28 14:22:36,721 - processing.data_preparation - INFO - Start loading DataFrame from articlesoutput.parquet
+2024-03-28 14:22:36,721 - processing.data_preparation - INFO - Start loading DataFrame from articlesoutput.parquet
+2024-03-28 14:22:51,803 - processing.data_preparation - INFO - Loaded DataFrame from articlesoutput.parquet
+2024-03-28 14:22:51,803 - processing.data_preparation - INFO - Loaded DataFrame from articlesoutput.parquet
+2024-03-28 14:22:51,821 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-28 14:22:51,821 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-28 14:32:17,869 - processing.data_preparation - INFO - Check if the file in exists in gcs test_step1_pipeline.parquet
+2024-03-28 14:32:17,930 - processing.data_preparation - INFO - Start loading DataFrame from articlesoutput.parquet
+2024-03-28 14:32:36,000 - processing.data_preparation - INFO - Loaded DataFrame from articlesoutput.parquet
+2024-03-28 14:32:36,021 - processing.data_preparation - INFO - Loading Data Preparation
+2024-03-28 14:32:39,584 - processing.data_preparation - INFO - Dataset preprocessed- process completed and file saved to GCS.

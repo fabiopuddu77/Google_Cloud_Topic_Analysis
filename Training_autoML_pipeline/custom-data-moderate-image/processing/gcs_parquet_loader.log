@@ -1,0 +1,45 @@
+2024-03-22 10:36:36,887 - moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-22 10:41:02,481 - moderate - ERROR - Error loading Parquet file from GCS: 404 GET https://storage.googleapis.com/download/storage/v1/b/ccai-storage/o/pipeline%2Fstep3_pipeline.parquet?alt=media: No such object: ccai-storage/pipeline/step3_pipeline.parquet: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2024-03-22 10:41:02,482 - moderate - INFO - Extracting Moderate
+2024-03-22 10:43:22,238 - moderate - ERROR - Error loading Parquet file from GCS: 404 GET https://storage.googleapis.com/download/storage/v1/b/ccai-storage/o/pipeline%2Fstep3_pipeline.parquet?alt=media: No such object: ccai-storage/pipeline/step3_pipeline.parquet: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2024-03-22 10:48:00,491 - moderate - ERROR - Error loading Parquet file from GCS: 404 GET https://storage.googleapis.com/download/storage/v1/b/ccai-storage/o/pipeline%2Fstep3_pipeline.parquet?alt=media: No such object: ccai-storage/pipeline/step3_pipeline.parquet: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2024-03-22 10:48:00,493 - moderate - INFO - File pipeline/step3_pipeline.parquet doesn't exists
+2024-03-22 10:58:38,820 - moderate - ERROR - Error loading Parquet file from GCS: 404 GET https://storage.googleapis.com/download/storage/v1/b/ccai-storage/o/pipeline%2Fstep3_pipeline.parquet?alt=media: No such object: ccai-storage/pipeline/step3_pipeline.parquet: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2024-03-22 10:58:38,820 - moderate - ERROR - Error loading Parquet file from GCS: 404 GET https://storage.googleapis.com/download/storage/v1/b/ccai-storage/o/pipeline%2Fstep3_pipeline.parquet?alt=media: No such object: ccai-storage/pipeline/step3_pipeline.parquet: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2024-03-22 10:58:38,821 - moderate - INFO - File pipeline/step3_pipeline.parquet doesn't exists
+2024-03-22 10:58:38,821 - moderate - INFO - File pipeline/step3_pipeline.parquet doesn't exists
+2024-03-22 11:11:04,496 - moderate - INFO - Extracting Moderate
+2024-03-22 11:11:04,496 - moderate - INFO - Extracting Moderate
+2024-03-22 11:11:04,496 - moderate - INFO - Extracting Moderate
+2024-03-22 11:28:02,404 - moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-22 11:28:02,404 - moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-22 11:28:02,404 - moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-22 11:28:02,404 - moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-22 11:33:02,206 - moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-22 11:33:02,206 - moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-22 11:33:02,206 - moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-22 11:33:02,206 - moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-22 11:33:02,206 - moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-22 11:33:40,932 - moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-22 11:33:40,932 - moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-22 11:33:40,932 - moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-22 11:33:40,932 - moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-22 11:33:40,932 - moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-22 11:33:40,932 - moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-22 11:34:12,519 - moderate - INFO - Extracting Moderate
+2024-03-22 11:34:12,519 - moderate - INFO - Extracting Moderate
+2024-03-22 11:34:12,519 - moderate - INFO - Extracting Moderate
+2024-03-22 11:34:12,519 - moderate - INFO - Extracting Moderate
+2024-03-22 11:34:12,519 - moderate - INFO - Extracting Moderate
+2024-03-22 11:34:12,519 - moderate - INFO - Extracting Moderate
+2024-03-22 11:34:12,519 - moderate - INFO - Extracting Moderate
+2024-03-22 11:37:57,937 - moderate - INFO - Extracting Moderate
+2024-03-22 11:51:41,707 - moderate_ - INFO - Extracting Moderate
+2024-03-22 11:51:47,425 - moderate_ - INFO - Moderate extracted - process completed and file saved to GCS.
+2024-03-22 11:52:17,359 - moderate_ - INFO - File already exists in GCS. Skipping process.
+2024-03-22 11:52:17,359 - moderate_ - INFO - File already exists in GCS. Skipping process.
+2024-03-22 13:02:48,892 - moderate - INFO - File already exists in GCS. Skipping process.
+2024-03-22 14:22:45,430 - moderate - INFO - Extracting Moderate
+2024-03-22 14:22:45,430 - moderate - INFO - Extracting Moderate
+2024-03-22 14:22:51,793 - moderate - INFO - Moderate extracted - process completed and file saved to GCS.
+2024-03-22 14:22:51,793 - moderate - INFO - Moderate extracted - process completed and file saved to GCS.

@@ -1,0 +1,14 @@
+2024-03-22 13:49:49,271 - processing.entities - INFO - File pipeline/step4_pipeline.parquet doesn't exists
+2024-03-22 13:56:47,245 - processing.entities - INFO - Extracting Entity
+2024-03-22 13:56:47,245 - processing.entities - INFO - Extracting Entity
+2024-03-22 13:56:47,543 - processing.entities - INFO - Entity extracted - process completed and file saved to GCS.
+2024-03-22 13:56:47,543 - processing.entities - INFO - Entity extracted - process completed and file saved to GCS.
+2024-03-22 14:05:39,170 - processing.entities - INFO - Extracting Entity
+2024-03-22 14:05:46,995 - processing.entities - INFO - Entity extracted - process completed and file saved to GCS.
+2024-03-22 14:31:27,578 - processing.entities - INFO - Extracting Entity
+2024-03-22 14:31:27,578 - processing.entities - INFO - Extracting Entity
+2024-03-22 14:31:34,585 - processing.entities - INFO - Entity extracted - process completed and file saved to GCS.
+2024-03-22 14:31:34,585 - processing.entities - INFO - Entity extracted - process completed and file saved to GCS.
+2024-03-22 22:31:17,434 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-22 22:31:17,434 - processing.entities - INFO - File already exists in GCS. Skipping process.
+2024-03-22 22:31:17,434 - processing.entities - INFO - File already exists in GCS. Skipping process.
